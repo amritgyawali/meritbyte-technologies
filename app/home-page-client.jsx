@@ -2,6 +2,18 @@
 
 import { useEffect } from "react";
 
+const THEME_STORAGE_KEY = "meritbyte-theme";
+const THEME_COLORS = {
+  dark: {
+    accent: "#55E0FF",
+    accent2: "#8F7BFF"
+  },
+  light: {
+    accent: "#0085A8",
+    accent2: "#5A43C7"
+  }
+};
+
 function loadScript(src, id) {
   if (id === "three-r128" && window.THREE) return Promise.resolve();
   if (id === "nexus-scene-script" && customElements.get("nexus-scene")) {
@@ -31,7 +43,19 @@ function loadScript(src, id) {
   });
 }
 
-function applyTheme(accent = "#55E0FF") {
+function resolveTheme(mode) {
+  return mode === "light" ? "light" : "dark";
+}
+
+function getSavedTheme() {
+  try {
+    return resolveTheme(window.localStorage.getItem(THEME_STORAGE_KEY));
+  } catch {
+    return "dark";
+  }
+}
+
+function setAccentVars(accent) {
   const h = accent.replace("#", "");
   const r = parseInt(h.slice(0, 2), 16);
   const g = parseInt(h.slice(2, 4), 16);
@@ -45,24 +69,77 @@ function applyTheme(accent = "#55E0FF") {
   st.setProperty("--ac45", rgba(0.45));
 }
 
+function applyTheme(mode) {
+  const theme = resolveTheme(mode);
+  const colors = THEME_COLORS[theme];
+  const st = document.documentElement.style;
+
+  document.documentElement.dataset.theme = theme;
+  st.colorScheme = theme;
+  st.setProperty("--ac2", colors.accent2);
+  setAccentVars(colors.accent);
+
+  const scene = document.querySelector("nexus-scene");
+  if (scene) {
+    scene.setAttribute("accent", colors.accent);
+    scene.setAttribute("accent2", colors.accent2);
+  }
+}
+
+function updateThemeToggle(mode) {
+  const theme = resolveTheme(mode);
+  const button = document.getElementById("nx-theme-toggle");
+  if (!button) return;
+
+  const isLight = theme === "light";
+  const label = isLight ? "Switch to dark mode" : "Switch to light mode";
+  button.setAttribute("aria-pressed", String(isLight));
+  button.setAttribute("aria-label", label);
+  button.title = label;
+}
+
+function setTheme(mode, { persist = true } = {}) {
+  const theme = resolveTheme(mode);
+
+  applyTheme(theme);
+  updateThemeToggle(theme);
+
+  if (persist) {
+    try {
+      window.localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch {
+      // Theme still works for the current page if storage is unavailable.
+    }
+  }
+
+  return theme;
+}
+
 export default function HomePageClient({ markup }) {
   useEffect(() => {
     let disposed = false;
     let revealFrame = 0;
     let observer = null;
-
-    applyTheme();
+    let currentTheme = setTheme(getSavedTheme(), { persist: false });
 
     const onScroll = () => {
       const nav = document.getElementById("nx-nav");
       if (!nav) return;
 
       const deep = window.scrollY > 40;
-      nav.style.background = deep ? "rgba(4,6,12,.8)" : "rgba(4,6,12,.42)";
+      nav.style.background = deep ? "var(--nav-bg-deep)" : "var(--nav-bg)";
       nav.style.borderBottomColor = deep
-        ? "rgba(255,255,255,.12)"
-        : "rgba(255,255,255,.07)";
+        ? "var(--nav-border-deep)"
+        : "var(--nav-border)";
     };
+
+    const onThemeToggle = () => {
+      currentTheme = setTheme(currentTheme === "light" ? "dark" : "light");
+      onScroll();
+    };
+
+    const themeButton = document.getElementById("nx-theme-toggle");
+    themeButton?.addEventListener("click", onThemeToggle);
 
     window.addEventListener("scroll", onScroll, { passive: true });
     onScroll();
@@ -112,6 +189,7 @@ export default function HomePageClient({ markup }) {
       disposed = true;
       cancelAnimationFrame(revealFrame);
       observer?.disconnect();
+      themeButton?.removeEventListener("click", onThemeToggle);
       window.removeEventListener("scroll", onScroll);
     };
   }, []);

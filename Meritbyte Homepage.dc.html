@@ -30,14 +30,11 @@
 
 <x-import component-from-global-scope="nexus-scene" from="./nexus.js" accent="{{ accent }}" accent2="#8F7BFF" motion="{{ motion }}" hint-size="100%,2px" style="position:fixed;inset:0;z-index:1;pointer-events:none"></x-import>
 
-<sc-if value="{{ grid }}" hint-placeholder-val="{{ true }}">
-  <div style="position:fixed;inset:0;z-index:0;pointer-events:none;background-image:linear-gradient(rgba(120,160,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(120,160,255,.05) 1px,transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(85% 75% at 50% 40%,#000 25%,transparent 100%);mask-image:radial-gradient(85% 75% at 50% 40%,#000 25%,transparent 100%)"></div>
-</sc-if>
-<div style="position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(55% 42% at 74% 12%,var(--ac12),transparent 70%),radial-gradient(48% 40% at 12% 62%,rgba(143,123,255,.09),transparent 70%)"></div>
+<div style="position:fixed;inset:0;z-index:0;pointer-events:none;background:var(--page-glow)"></div>
 
 <div style="position:relative;z-index:2">
 
-  <nav id="nx-nav" data-screen-label="Nav" style="position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px clamp(20px,4.5vw,56px);background:rgba(4,6,12,.42);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.07);transition:background .35s,border-color .35s">
+  <nav id="nx-nav" data-screen-label="Nav" style="position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px clamp(20px,4.5vw,56px);background:var(--nav-bg);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid var(--nav-border);transition:background .35s,border-color .35s">
     <a href="#top" style="display:flex;align-items:center;gap:11px;color:var(--ink)">
       <span style="position:relative;width:26px;height:26px;display:grid;place-items:center">
         <span style="position:absolute;inset:0;border:1.5px solid var(--ac);border-radius:7px;transform:rotate(45deg)"></span>
@@ -46,10 +43,14 @@
       <span style="font-size:18px;font-weight:600;letter-spacing:-0.01em">meritbyte</span>
     </a>
     <div style="display:flex;align-items:center;gap:clamp(14px,2.4vw,30px);flex-wrap:wrap;justify-content:flex-end">
-      <a href="#practices" style="font-size:13.5px;font-weight:500;color:rgba(226,236,255,.78)">Practices</a>
-      <a href="#services" style="font-size:13.5px;font-weight:500;color:rgba(226,236,255,.78)">Services</a>
-      <a href="#process" style="font-size:13.5px;font-weight:500;color:rgba(226,236,255,.78)">Process</a>
-      <a href="#contact" style="font-size:13.5px;font-weight:600;color:#051018;background:var(--ac);padding:9px 18px;border-radius:10px;box-shadow:0 0 24px var(--ac25);white-space:nowrap;flex-shrink:0">Start a project</a>
+      <a href="#practices" style="font-size:13.5px;font-weight:500;color:var(--nav-link)">Practices</a>
+      <a href="#services" style="font-size:13.5px;font-weight:500;color:var(--nav-link)">Services</a>
+      <a href="#process" style="font-size:13.5px;font-weight:500;color:var(--nav-link)">Process</a>
+      <button id="nx-theme-toggle" class="nx-theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false" title="Switch to light mode">
+        <span class="nx-theme-toggle__icon" aria-hidden="true"></span>
+        <span class="nx-sr-only">Toggle light mode</span>
+      </button>
+      <a href="#contact" style="font-size:13.5px;font-weight:600;color:var(--cta-ink);background:var(--ac);padding:9px 18px;border-radius:10px;box-shadow:0 0 24px var(--ac25);white-space:nowrap;flex-shrink:0">Start a project</a>
     </div>
   </nav>
 
@@ -59,7 +60,7 @@
       <h1 style="margin:20px 0 22px;font-size:clamp(44px,7vw,96px);line-height:.98;letter-spacing:-0.03em;font-weight:600;text-wrap:balance">We engineer the <span style="background:linear-gradient(100deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent">whole machine</span>.</h1>
       <p style="margin:0;max-width:56ch;font-size:clamp(16px,1.4vw,19px);line-height:1.65;color:var(--mut);text-wrap:pretty">Software, AI, web, marketing, search and cloud — six practices fused into one engine that ships, scales and sells. Scroll, and watch it come apart.</p>
       <div style="display:flex;flex-wrap:wrap;gap:14px;margin-top:36px">
-        <a href="#contact" style="display:inline-flex;align-items:center;gap:8px;background:var(--ac);color:#051018;font-size:15px;font-weight:600;padding:15px 28px;border-radius:12px;box-shadow:0 0 38px var(--ac25);white-space:nowrap">Start a project <span aria-hidden="true">→</span></a>
+        <a href="#contact" style="display:inline-flex;align-items:center;gap:8px;background:var(--ac);color:var(--cta-ink);font-size:15px;font-weight:600;padding:15px 28px;border-radius:12px;box-shadow:0 0 38px var(--ac25);white-space:nowrap">Start a project <span aria-hidden="true">→</span></a>
         <a href="#practices" style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.16);color:var(--ink);font-size:15px;font-weight:500;padding:15px 26px;border-radius:12px;background:rgba(255,255,255,.03);white-space:nowrap">Explore the engine <span aria-hidden="true">↓</span></a>
       </div>
       <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:46px">
@@ -266,7 +267,7 @@
       <h2 style="margin:20px 0 16px;font-size:clamp(38px,5.6vw,72px);line-height:1;letter-spacing:-0.03em;font-weight:600;text-wrap:balance">Let's assemble your engine.</h2>
       <p style="margin:0 auto;max-width:44ch;font-size:17px;line-height:1.65;color:var(--mut)">Tell us what you're building — we'll bring the practices.</p>
       <div style="display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:34px">
-        <a href="mailto:hello@meritbyte.com" style="display:inline-flex;align-items:center;gap:8px;background:var(--ac);color:#051018;font-size:15px;font-weight:600;padding:15px 28px;border-radius:12px;box-shadow:0 0 38px var(--ac25);white-space:nowrap">Start a project <span aria-hidden="true">→</span></a>
+        <a href="mailto:hello@meritbyte.com" style="display:inline-flex;align-items:center;gap:8px;background:var(--ac);color:var(--cta-ink);font-size:15px;font-weight:600;padding:15px 28px;border-radius:12px;box-shadow:0 0 38px var(--ac25);white-space:nowrap">Start a project <span aria-hidden="true">→</span></a>
         <a href="mailto:hello@meritbyte.com" style="display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(255,255,255,.16);color:var(--ink);font-size:15px;font-weight:500;padding:15px 26px;border-radius:12px;font-family:'IBM Plex Mono',monospace;white-space:nowrap">hello@meritbyte.com</a>
       </div>
     </div>
@@ -360,8 +361,8 @@ class Component extends DCLogic {
       const nav = document.getElementById('nx-nav');
       if (!nav) return;
       const deep = window.scrollY > 40;
-      nav.style.background = deep ? 'rgba(4,6,12,.8)' : 'rgba(4,6,12,.42)';
-      nav.style.borderBottomColor = deep ? 'rgba(255,255,255,.12)' : 'rgba(255,255,255,.07)';
+      nav.style.background = deep ? 'var(--nav-bg-deep)' : 'var(--nav-bg)';
+      nav.style.borderBottomColor = deep ? 'var(--nav-border-deep)' : 'var(--nav-border)';
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
