@@ -1,0 +1,77 @@
+:root {
+  --ac: #55e0ff;
+  --ac2: #8f7bff;
+  --ac25: rgba(85, 224, 255, 0.25);
+  --ac12: rgba(85, 224, 255, 0.12);
+  --ac45: rgba(85, 224, 255, 0.45);
+  --ink: #eaf2ff;
+  --mut: rgba(199, 213, 240, 0.64);
+  --bg: #04060c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--ac);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+::selection {
+  background: var(--ac45);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a2338;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05070d;
+}
+
+@keyframes nxMarquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes nxPulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes nxDrop {
+  0% {
+    transform: translateY(-120%);
+  }
+
+  100% {
+    transform: translateY(320%);
+  }
+}
