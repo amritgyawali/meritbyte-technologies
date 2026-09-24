@@ -130,6 +130,7 @@ export default function Page() {
             <a href="#services">Services</a>
             <a href="#approach">How we work</a>
             <a href="#about">About</a>
+            <a href="/free-website">Free website design</a>
           </nav>
           <div className="masthead__actions">
             <ThemeToggle />
@@ -297,6 +298,13 @@ export default function Page() {
               <a className="contact__email" href={`mailto:${EMAIL}`}>
                 {EMAIL}
               </a>
+              <p>
+                Small business without a website?{" "}
+                <a className="textlink" href="/free-website">
+                  Get a free design for yours
+                </a>
+                .
+              </p>
             </div>
             <dl className="contact__aside">
               <dt>Response</dt>

@@ -691,3 +691,142 @@ html:not([data-theme="dark"]) .theme-toggle__to-light {
   line-height: 1.15;
   margin-top: 14px;
 }
+
+/* ---------- Free website sign-up (/free-website) ---------- */
+
+.signup {
+  border-top: 0;
+}
+
+.signup__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: start;
+}
+
+.signup__narrow {
+  max-width: 640px;
+}
+
+.signup__title {
+  font-size: clamp(34px, 4.6vw, 54px);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+  margin: 18px 0 20px;
+  max-width: 18ch;
+}
+
+.signup__lead {
+  font-size: 18px;
+  color: var(--ink-secondary);
+  max-width: 50ch;
+  margin-bottom: 24px;
+}
+
+.signup__list {
+  margin: 0;
+  padding-left: 1.1em;
+  color: var(--ink-secondary);
+  display: grid;
+  gap: 10px;
+}
+
+.signup__panel,
+.signup__narrow > .signup__form {
+  background: var(--paper-raised);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  padding: clamp(22px, 3vw, 32px);
+}
+
+.signup__form {
+  display: grid;
+  gap: 16px;
+}
+
+.signup__form h2,
+.signup__state h2 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.signup__form label {
+  display: grid;
+  gap: 6px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.signup__form input:not([type="checkbox"]) {
+  font: inherit;
+  font-weight: 400;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  border-radius: 3px;
+  padding: 10px 12px;
+  width: 100%;
+}
+
+.signup__form input:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.signup__optional {
+  color: var(--ink-muted);
+  font-weight: 400;
+}
+
+.signup__consent {
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 10px;
+  font-weight: 400 !important;
+  color: var(--ink-secondary);
+}
+
+.signup__consent input {
+  margin-top: 5px;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--accent);
+}
+
+.signup__trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.signup__error {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.signup__fine {
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+.signup__state {
+  display: grid;
+  gap: 14px;
+}
+
+.signup__state p {
+  color: var(--ink-secondary);
+}
+
+.signup .button {
+  justify-self: start;
+}
+
+@media (max-width: 900px) {
+  .signup__grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
