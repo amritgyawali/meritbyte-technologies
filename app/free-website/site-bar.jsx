@@ -12,6 +12,7 @@ export default function SiteBar() {
           <a href="/#services">Services</a>
           <a href="/#approach">How we work</a>
           <a href="/#about">About</a>
+          <a href="/subscribe">Subscribe</a>
         </nav>
         <div className="masthead__actions">
           <ThemeToggle />

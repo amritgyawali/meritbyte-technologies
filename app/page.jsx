@@ -131,6 +131,7 @@ export default function Page() {
             <a href="#approach">How we work</a>
             <a href="#about">About</a>
             <a href="/free-website">Free website design</a>
+            <a href="/subscribe">Subscribe</a>
           </nav>
           <div className="masthead__actions">
             <ThemeToggle />
