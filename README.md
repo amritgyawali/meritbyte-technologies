@@ -18,8 +18,12 @@ the two designs never share CSS:
   `Meritbyte Homepage.dc.html` at build time; `home-page-client.jsx` handles
   the theme toggle, scroll reveal and loads the WebGL scene from
   `public/nexus.js`. Styles in `app/(home)/globals.css`.
-- `app/(site)/` — `/free-website` and its confirm page. Styles in
-  `app/(site)/globals.css`; `theme-toggle.jsx` is the toggle for these pages.
+- `app/(site)/` — `/free-website` (and its confirm page), `/subscribe` and
+  `/unsubscribe`. Styles in `app/(site)/globals.css`; `theme-toggle.jsx` is
+  the toggle for these pages.
+- `app/subscribe-popup.jsx` — the subscribe popup, mounted by both layouts.
+  Its home-page styles are in `app/(home)/subscribe.css`, scoped to
+  `.subscribe`.
 
 Both groups store the theme under the same `meritbyte-theme` key.
 

@@ -1,4 +1,6 @@
 import "./globals.css";
+import "./subscribe.css";
+import SubscribePopup from "../subscribe-popup";
 
 export const metadata = {
   title: "Meritbyte | Full-Cycle IT Engineering",
@@ -27,7 +29,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <SubscribePopup />
+      </body>
     </html>
   );
 }

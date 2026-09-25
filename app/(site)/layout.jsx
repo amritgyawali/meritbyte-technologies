@@ -1,4 +1,5 @@
 import "./globals.css";
+import SubscribePopup from "../subscribe-popup";
 
 export const metadata = {
   title: "Meritbyte Technologies | Software, cloud and marketing",
@@ -34,7 +35,10 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <SubscribePopup />
+      </body>
     </html>
   );
 }
