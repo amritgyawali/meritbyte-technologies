@@ -61,6 +61,11 @@ Supabase is the source of truth; Brevo holds a copy and sends the email.
   and mark the row too.
 - Newsletters are written and sent in Brevo (Campaigns), to those lists.
   Brevo adds its own unsubscribe link.
+- The welcome email is not sent from this site. The Hermes `sales` profile on
+  the VPS polls `public.subscribers` every 2 minutes, writes a personal email
+  for each new sign-up (confirmed ones, for `/free-website`), sends it from
+  ceo@meritbyte.com and records it in `public.email_sends` (campaign
+  `welcome`). Source: `coldmail/signup_welcome.py` in the hermes-fleet repo.
 - The confirmation and owner emails go through `MAIL_PROVIDER` (`lib/mail.mjs`):
   Resend by default, Brevo once meritbyte.com is authenticated there.
 
@@ -76,7 +81,7 @@ into it: Brevo's terms forbid it and it gets the account suspended.
    printed list ids.
 4. Set every variable in `.env.example` in Vercel, then redeploy.
 5. Brevo > Settings > Webhooks: add a Marketing webhook (and a Transactional one)
-   to `https://meritbyte.com/api/brevo/webhook?key=<BREVO_WEBHOOK_SECRET>` for
+   to `https://www.meritbyte.com/api/brevo/webhook?key=<BREVO_WEBHOOK_SECRET>` for
    Unsubscribed, Hard bounce and Marked as spam.
 6. `npm run brevo:sync` once to copy anyone who subscribed before Brevo was set up.
 7. To send the confirmation emails through Brevo as well: authenticate

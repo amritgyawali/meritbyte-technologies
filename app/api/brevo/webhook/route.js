@@ -10,7 +10,7 @@ import { supabase } from "../../../../lib/supabase.mjs";
 // campaign footer, hard bounces and spam complaints.
 //
 // Brevo > Settings > Webhooks > Marketing (and Transactional), URL:
-//   https://meritbyte.com/api/brevo/webhook?key=<BREVO_WEBHOOK_SECRET>
+//   https://www.meritbyte.com/api/brevo/webhook?key=<BREVO_WEBHOOK_SECRET>
 // events: Unsubscribed, Hard bounce, Marked as spam.
 
 const STOP_EVENTS = new Set(["unsubscribe", "unsubscribed", "hardbounce", "spam", "complaint"]);
