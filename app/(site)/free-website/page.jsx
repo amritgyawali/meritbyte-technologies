@@ -1,4 +1,4 @@
-import { CONSENT_TEXT } from "../../lib/signup";
+import { CONSENT_TEXT } from "../../../lib/signup";
 import SiteBar from "./site-bar";
 
 export const metadata = {

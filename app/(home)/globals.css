@@ -1,0 +1,277 @@
+:root {
+  --ac: #55e0ff;
+  --ac2: #8f7bff;
+  --ac25: rgba(85, 224, 255, 0.25);
+  --ac12: rgba(85, 224, 255, 0.12);
+  --ac45: rgba(85, 224, 255, 0.45);
+  --ink: #eaf2ff;
+  --mut: rgba(199, 213, 240, 0.64);
+  --bg: #04060c;
+  --surface: rgba(9, 13, 24, 0.52);
+  --surface-strong: rgba(8, 12, 22, 0.42);
+  --surface-soft: rgba(255, 255, 255, 0.03);
+  --border-subtle: rgba(255, 255, 255, 0.07);
+  --border-soft: rgba(255, 255, 255, 0.09);
+  --border-medium: rgba(255, 255, 255, 0.16);
+  --nav-bg: rgba(4, 6, 12, 0.42);
+  --nav-bg-deep: rgba(4, 6, 12, 0.8);
+  --nav-border: rgba(255, 255, 255, 0.07);
+  --nav-border-deep: rgba(255, 255, 255, 0.12);
+  --nav-link: rgba(226, 236, 255, 0.78);
+  --text-soft: rgba(226, 236, 255, 0.72);
+  --text-muted-soft: rgba(199, 213, 240, 0.55);
+  --text-faint: rgba(199, 213, 240, 0.45);
+  --line-soft: rgba(255, 255, 255, 0.1);
+  --cta-ink: #051018;
+  --page-glow: radial-gradient(
+      55% 42% at 74% 12%,
+      var(--ac12),
+      transparent 70%
+    ),
+    radial-gradient(48% 40% at 12% 62%, rgba(143, 123, 255, 0.09), transparent 70%);
+  --toggle-bg: rgba(255, 255, 255, 0.06);
+  --toggle-border: rgba(255, 255, 255, 0.16);
+  --toggle-knob: #55e0ff;
+  --toggle-detail: #06101a;
+  --focus-ring: rgba(85, 224, 255, 0.35);
+}
+
+html[data-theme="light"] {
+  --ac: #0085a8;
+  --ac2: #5a43c7;
+  --ac25: rgba(0, 133, 168, 0.18);
+  --ac12: rgba(0, 133, 168, 0.1);
+  --ac45: rgba(0, 133, 168, 0.28);
+  --ink: #09111f;
+  --mut: rgba(35, 45, 63, 0.72);
+  --bg: #f5f7fb;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: rgba(255, 255, 255, 0.92);
+  --surface-soft: rgba(255, 255, 255, 0.62);
+  --border-subtle: rgba(11, 18, 32, 0.1);
+  --border-soft: rgba(11, 18, 32, 0.12);
+  --border-medium: rgba(11, 18, 32, 0.18);
+  --nav-bg: rgba(255, 255, 255, 0.78);
+  --nav-bg-deep: rgba(255, 255, 255, 0.94);
+  --nav-border: rgba(11, 18, 32, 0.12);
+  --nav-border-deep: rgba(11, 18, 32, 0.16);
+  --nav-link: rgba(9, 17, 31, 0.76);
+  --text-soft: rgba(21, 31, 48, 0.74);
+  --text-muted-soft: rgba(35, 45, 63, 0.66);
+  --text-faint: rgba(35, 45, 63, 0.52);
+  --line-soft: rgba(11, 18, 32, 0.16);
+  --page-glow: radial-gradient(
+      55% 42% at 74% 12%,
+      rgba(0, 133, 168, 0.11),
+      transparent 70%
+    ),
+    radial-gradient(48% 40% at 12% 62%, rgba(90, 67, 199, 0.08), transparent 70%);
+  --toggle-bg: rgba(11, 18, 32, 0.08);
+  --toggle-border: rgba(11, 18, 32, 0.18);
+  --toggle-knob: #09111f;
+  --toggle-detail: #f5f7fb;
+  --focus-ring: rgba(0, 133, 168, 0.28);
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--ac);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+html[data-theme="light"] a:hover {
+  color: #09111f;
+}
+
+.nx-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.nx-theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  width: 54px;
+  height: 30px;
+  padding: 3px;
+  border: 1px solid var(--toggle-border);
+  border-radius: 999px;
+  background: var(--toggle-bg);
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition:
+    background 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.nx-theme-toggle:hover {
+  border-color: var(--ac45);
+  box-shadow: 0 0 22px var(--ac25);
+  transform: translateY(-1px);
+}
+
+.nx-theme-toggle:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.nx-theme-toggle__icon {
+  position: relative;
+  display: block;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--toggle-knob);
+  box-shadow: 0 0 18px var(--ac25);
+  transition:
+    background 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.25s ease;
+}
+
+.nx-theme-toggle__icon::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--toggle-bg);
+  transition:
+    background 0.25s ease,
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+html[data-theme="light"] .nx-theme-toggle__icon {
+  transform: translateX(24px);
+}
+
+html[data-theme="light"] .nx-theme-toggle__icon::before {
+  opacity: 0;
+  transform: scale(0.3);
+}
+
+html[data-theme="light"] ::selection {
+  background: var(--ac45);
+  color: #09111f;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #c4ccda;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #eef2f7;
+}
+
+html[data-theme="light"] [style*="background:rgba(9,13,24"],
+html[data-theme="light"] [style*="background:rgba(8,12,22"] {
+  background: var(--surface) !important;
+}
+
+html[data-theme="light"] [style*="background:rgba(255,255,255,.03)"] {
+  background: var(--surface-soft) !important;
+}
+
+html[data-theme="light"] [style*="background:rgba(255,255,255,.1)"] {
+  background: var(--line-soft) !important;
+}
+
+html[data-theme="light"] [style*="border:1px solid rgba(255,255,255"] {
+  border-color: var(--border-soft) !important;
+}
+
+html[data-theme="light"] [style*="border-top:1px solid rgba(255,255,255"] {
+  border-top-color: var(--border-subtle) !important;
+}
+
+html[data-theme="light"] [style*="border-bottom:1px solid rgba(255,255,255"] {
+  border-bottom-color: var(--border-subtle) !important;
+}
+
+html[data-theme="light"] [style*="color:rgba(226,236,255"],
+html[data-theme="light"] [style*="color:rgba(199,213,240"],
+html[data-theme="light"] [style*="color:rgba(234,242,255"] {
+  color: var(--text-soft) !important;
+}
+
+html[data-theme="light"] footer [style*="color:rgba(199,213,240"] {
+  color: var(--text-faint) !important;
+}
+
+
+::selection {
+  background: var(--ac45);
+  color: #ffffff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1a2338;
+  border-radius: 99px;
+}
+
+::-webkit-scrollbar-track {
+  background: #05070d;
+}
+
+@keyframes nxMarquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes nxPulse {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes nxDrop {
+  0% {
+    transform: translateY(-120%);
+  }
+
+  100% {
+    transform: translateY(320%);
+  }
+}

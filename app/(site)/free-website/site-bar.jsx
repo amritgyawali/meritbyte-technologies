@@ -9,9 +9,10 @@ export default function SiteBar() {
           <span className="wordmark__suffix">Technologies</span>
         </a>
         <nav className="masthead__nav" aria-label="Primary">
+          <a href="/#practices">Practices</a>
           <a href="/#services">Services</a>
-          <a href="/#approach">How we work</a>
-          <a href="/#about">About</a>
+          <a href="/#process">Process</a>
+          <a href="/#contact">Contact</a>
         </nav>
         <div className="masthead__actions">
           <ThemeToggle />
