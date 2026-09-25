@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-import { addToBrevo, clientIp, notifyOwner, readToken } from "../../../../lib/signup";
+import { clientIp, notifyOwner, readToken, saveSignup } from "../../../../lib/signup";
 
 // POST only. The emailed link opens a page with a Confirm button; a GET here
 // would let mail scanners that pre-open links "confirm" on the person's behalf.
@@ -19,12 +19,12 @@ export async function POST(request) {
 
   const confirmedAt = new Date().toISOString();
   const confirmIp = clientIp(request);
-  const brevoStatus = await addToBrevo(payload, confirmedAt, confirmIp);
+  const saveStatus = await saveSignup(payload, confirmedAt, confirmIp);
   try {
-    await notifyOwner(payload, confirmedAt, confirmIp, brevoStatus);
+    await notifyOwner(payload, confirmedAt, confirmIp, saveStatus);
   } catch (err) {
     // The person did confirm; do not show them an error for our own mail.
-    console.error("signup: owner notification failed", err, brevoStatus);
+    console.error("signup: owner notification failed", err, saveStatus);
   }
   return back("confirmed=1");
 }

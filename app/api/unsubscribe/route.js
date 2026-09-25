@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 
+import { syncSubscriber } from "../../../lib/brevo.mjs";
 import { supabase } from "../../../lib/supabase.mjs";
 
 const TOKEN_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
@@ -27,15 +28,26 @@ export async function POST(request) {
       : NextResponse.redirect(new URL(`/unsubscribe?${query}`, request.url), 303);
 
   if (!TOKEN_RE.test(token)) return back("error=link");
+  let rows;
   try {
-    await supabase(`subscribers?unsubscribe_token=eq.${token}`, {
+    rows = await supabase(`subscribers?unsubscribe_token=eq.${token}`, {
       method: "PATCH",
-      prefer: "return=minimal",
-      body: { subscribed: false, unsubscribed_at: new Date().toISOString() }
+      prefer: "return=representation",
+      body: {
+        subscribed: false,
+        unsubscribed_at: new Date().toISOString(),
+        unsubscribe_reason: "unsubscribe page"
+      }
     });
   } catch (err) {
     console.error("unsubscribe: Supabase update failed", err);
     return back(`error=server&t=${token}`);
+  }
+  // Blocklist the address in Brevo too, so no campaign reaches it. A failure
+  // is recorded on the row and retried by the daily sync.
+  for (const row of rows || []) {
+    const brevo = await syncSubscriber(row);
+    if (!brevo.ok && !brevo.skipped) console.error("unsubscribe: Brevo sync failed", brevo.status);
   }
   return back("done=1");
 }

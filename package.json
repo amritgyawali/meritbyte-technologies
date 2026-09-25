@@ -6,11 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "campaign": "node scripts/send-campaign.mjs"
+    "brevo:setup": "node --env-file=.env.local scripts/brevo-setup.mjs",
+    "brevo:sync": "node --env-file=.env.local scripts/brevo-sync.mjs"
   },
   "dependencies": {
     "next": "^15.5.20",
-    "nodemailer": "^7.0.13",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   }
