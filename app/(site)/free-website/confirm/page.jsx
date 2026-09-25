@@ -1,4 +1,4 @@
-import { readToken } from "../../../lib/signup";
+import { readToken } from "../../../../lib/signup";
 import SiteBar from "../site-bar";
 
 export const metadata = {

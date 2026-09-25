@@ -1,7 +1,7 @@
 # Meritbyte Technologies
 
 Marketing site for Meritbyte Technologies. Next.js App Router, no UI framework,
-plain CSS in `app/globals.css`.
+plain CSS.
 
 ```bash
 npm install
@@ -11,16 +11,21 @@ npm run build   # static export to .next
 
 ## Layout
 
-- `app/page.jsx` — the whole page. Copy lives in the arrays at the top
-  (`practices`, `support`, `steps`, `engagements`), so editing text does not
-  mean touching markup.
-- `app/globals.css` — design tokens at the top, then sections in the order they
-  appear on the page. Light and dark share one set of variable names.
-- `app/theme-toggle.jsx` — the only client component on the site. The matching
-  boot script in `app/layout.jsx` sets the theme before first paint.
+The app has two route groups, each with its own root layout and stylesheet, so
+the two designs never share CSS:
 
-The contact address is `hello@meritbyte.com`, set once as `EMAIL` in
-`app/page.jsx`.
+- `app/(home)/` — the home page (`/`). `page.jsx` reads the markup from
+  `Meritbyte Homepage.dc.html` at build time; `home-page-client.jsx` handles
+  the theme toggle, scroll reveal and loads the WebGL scene from
+  `public/nexus.js`. Styles in `app/(home)/globals.css`.
+- `app/(site)/` — `/free-website` (and its confirm page), `/subscribe` and
+  `/unsubscribe`. Styles in `app/(site)/globals.css`; `theme-toggle.jsx` is
+  the toggle for these pages.
+- `app/subscribe-popup.jsx` — the subscribe popup, mounted by both layouts.
+  Its home-page styles are in `app/(home)/subscribe.css`, scoped to
+  `.subscribe`.
+
+Both groups store the theme under the same `meritbyte-theme` key.
 
 ## Free website sign-up (`/free-website`)
 

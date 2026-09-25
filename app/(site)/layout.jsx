@@ -1,5 +1,5 @@
 import "./globals.css";
-import SubscribePopup from "./subscribe-popup";
+import SubscribePopup from "../subscribe-popup";
 
 export const metadata = {
   title: "Meritbyte Technologies | Software, cloud and marketing",

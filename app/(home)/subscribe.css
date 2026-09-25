@@ -1,0 +1,198 @@
+/* Subscribe popup (app/subscribe-popup.jsx) in the home page's style.
+   Every rule is scoped to .subscribe so nothing leaks into the page. */
+
+.subscribe {
+  --pop-bg: #0a0f1c;
+  --pop-field: rgba(255, 255, 255, 0.04);
+  --pop-error: #ff8a8a;
+
+  width: min(460px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  padding: 0;
+  border: 1px solid var(--border-medium);
+  border-radius: 16px;
+  background: var(--pop-bg);
+  color: var(--ink);
+  font-family: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5), 0 0 40px var(--ac12);
+}
+
+html[data-theme="light"] .subscribe {
+  --pop-bg: #ffffff;
+  --pop-field: rgba(11, 18, 32, 0.03);
+  --pop-error: #b42318;
+  box-shadow: 0 30px 80px rgba(11, 18, 32, 0.18);
+}
+
+.subscribe::backdrop {
+  background: rgba(2, 4, 10, 0.62);
+  backdrop-filter: blur(4px);
+}
+
+.subscribe[open] {
+  animation: subscribe-in 0.2s ease-out;
+}
+
+@keyframes subscribe-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .subscribe[open] {
+    animation: none;
+  }
+}
+
+.subscribe *,
+.subscribe *::before,
+.subscribe *::after {
+  box-sizing: border-box;
+}
+
+.subscribe__box {
+  position: relative;
+  padding: clamp(22px, 4vw, 32px);
+}
+
+.subscribe__close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 36px;
+  height: 36px;
+  font: inherit;
+  font-size: 24px;
+  line-height: 1;
+  color: var(--mut);
+  background: transparent;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.subscribe__close:hover {
+  color: var(--ac);
+}
+
+.subscribe .label {
+  margin: 0 0 10px;
+  font-family: "IBM Plex Mono", ui-monospace, monospace;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ac);
+}
+
+.subscribe h2 {
+  margin: 0;
+  padding-right: 28px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.subscribe p {
+  margin: 0;
+}
+
+.subscribe__lead,
+.subscribe .signup__state p {
+  color: var(--text-soft);
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.subscribe .signup__form,
+.subscribe .signup__state {
+  display: grid;
+  gap: 16px;
+}
+
+.subscribe .signup__form label {
+  display: grid;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.subscribe .signup__form input:not([type="checkbox"]) {
+  width: 100%;
+  padding: 11px 13px;
+  font: inherit;
+  font-size: 16px;
+  color: var(--ink);
+  background: var(--pop-field);
+  border: 1px solid var(--border-medium);
+  border-radius: 10px;
+}
+
+.subscribe .signup__form input:focus-visible {
+  outline: none;
+  border-color: var(--ac);
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+.subscribe .signup__consent {
+  grid-template-columns: auto 1fr;
+  align-items: start;
+  gap: 10px;
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 1.5;
+  color: var(--text-soft);
+}
+
+.subscribe .signup__consent input {
+  width: 18px;
+  height: 18px;
+  margin: 2px 0 0;
+  accent-color: var(--ac);
+}
+
+.subscribe .signup__trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.subscribe .signup__error {
+  color: var(--pop-error);
+  font-size: 14px;
+}
+
+.subscribe .signup__fine {
+  color: var(--text-faint);
+  font-size: 12.5px;
+  line-height: 1.5;
+}
+
+.subscribe .button {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 24px;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--cta-ink);
+  background: var(--ac);
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 0 30px var(--ac25);
+  cursor: pointer;
+}
+
+.subscribe .button:hover {
+  filter: brightness(1.08);
+}
+
+.subscribe .button:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
