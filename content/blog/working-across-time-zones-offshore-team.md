@@ -86,7 +86,7 @@ For urgent production issues outside the overlap, agree an on-call arrangement a
 
 ## What about holidays and working weeks in Nepal?
 
-Nepal's official weekly holiday is Saturday, and many local businesses work Sunday to Friday; teams that serve overseas clients commonly align to a Monday to Friday week or agree cover for Fridays. Ask which week your team works before you schedule anything.
+Saturday has long been Nepal's official weekly holiday, and many local businesses work Sunday to Friday; teams that serve overseas clients commonly align to a Monday to Friday week or agree cover for Fridays. Ask which week your team works before you schedule anything.
 
 Public holidays follow the Bikram Sambat calendar, so their Gregorian dates move each year. The biggest are Dashain and Tihar, which fall in the autumn, usually somewhere between late September and November, when many people travel home for an extended break. Ask for the year's holiday calendar at the start of the engagement and plan launches away from those weeks, just as you would around your own Thanksgiving, Christmas or Easter.
 

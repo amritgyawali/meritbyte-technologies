@@ -96,7 +96,7 @@ Meritbyte Technologies is a Nepal-based web and software development company tha
 
 Nepal runs on UTC+5:45 with no daylight saving, so it is 4 hours 15 minutes behind AEST and Brisbane, and 5 hours 15 minutes behind Sydney and Melbourne during daylight saving (AEDT). A 2:00 pm call in Sydney is 9:45 am in Nepal in winter and 8:45 am in summer. Perth is only 2 hours 15 minutes ahead of Nepal.
 
-The useful consequence: feedback sent after lunch in Sydney lands at the start of the Nepali working day. Pricing starts with a fixed quote for the first milestone. Beyond that, work is sold in two-week blocks, each ending in a demo, with no obligation to buy the next one. Weekly written updates and a staging site keep progress visible, and the .com.au domain, hosting and code stay registered to your business. Local specifics, from GST to payment gateways, are collected on our [Australian website development](/website-developer/australia) page, and the build process on our [web development services](/services/web-development) page.
+The useful consequence: feedback sent after lunch in Sydney lands at the start of the Nepali working day. Pricing starts with a fixed quote for the first milestone. Beyond that, work is sold in two-week blocks, each ending in a demo, with no obligation to buy the next one. Weekly written updates and a staging site keep progress visible, and your .com.au domain, hosting and code stay registered to your business. Local specifics, from GST to payment gateways, are collected on our [Australian website development](/website-developer/australia) page, and the build process on our [web development services](/services/web-development) page.
 
 ## Frequently asked questions
 
@@ -110,7 +110,7 @@ Ask for it to be stated either way. B2B quotes are usually ex GST, and freelance
 
 ### Is it safe to hire an offshore web developer as an Australian business?
 
-It can be, if the setup protects you. Keep the domain, hosting, code repository and any payment accounts in your business's name, pay by milestone rather than all upfront, and insist on a staging site you can check whenever you like. Agree the working-hours overlap in writing. Most failed offshore projects fail on vague briefs and missing oversight, not on skill.
+It can be, if the setup protects you. Keep the domain, hosting, code repository and any payment accounts in your business's name, pay by milestone rather than all upfront, and insist on a staging site you can check whenever you like. Agree the working-hours overlap in writing. Offshore projects more often fail on vague briefs and missing oversight than on skill.
 
 ### Does my website legally need to be accessible in Australia?
 

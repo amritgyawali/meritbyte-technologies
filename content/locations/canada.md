@@ -31,7 +31,7 @@ A good Canadian build gets the regulated details right first: consent, privacy, 
 
 1. A free scoping call, after which you receive a written scope, a timeline and a number.
 2. A fixed price for the first milestone, so the first decision carries no open-ended risk.
-3. Two-week blocks after that, each ending with a demo; you can stop at the end of any block.
+3. Two-week blocks from then on; each closes with a demo, and you decide whether the next one starts.
 4. One named project manager, a written progress note every week, and a staging site you can open whenever you like.
 5. Handover with documentation, and every account already in your name.
 

@@ -31,7 +31,7 @@ Bilingual competence and local plumbing. Plenty of agencies can make an attracti
 
 More than translation. An Arabic version needs its own layout direction, typography, number handling and SEO, planned from the wireframe onwards.
 
-The checklist our designers and developers work through:
+The checklist a careful team works through:
 
 - **Direction.** Arabic pages set `dir="rtl"` and `lang="ar"`, and components use start and end rather than left and right so they reverse cleanly.
 - **What to mirror.** Arrows, progress steps and carousels reverse; logos, video play buttons, phone numbers and charts usually do not.

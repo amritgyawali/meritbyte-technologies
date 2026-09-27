@@ -29,7 +29,7 @@ Evidence that they can pass your own due diligence. A developer serving Singapor
 
 ### Where Meritbyte fits, and where it does not
 
-Item 8 reflects how we already work: code, domains, hosting and credentials belong to the client, with documentation delivered at handover. Our [cybersecurity](/services/cybersecurity) practice covers the code and infrastructure review behind item 5. Engagements start with a free scoping conversation, which produces a scope, a timeline and a number, and a fixed-price first milestone. We are not the right fit if your procurement rules require a Singapore-registered vendor, on-site staff or local security clearance.
+Item 8 reflects how we already work: code, domains, hosting and credentials belong to the client, with documentation delivered at handover. Our [cybersecurity](/services/cybersecurity) practice covers the code and infrastructure review behind item 5. Engagements start with a free scoping conversation that produces a scope, a timeline and a number, followed by a fixed-price first milestone and then two-week blocks, each closing with a demo. One project manager reports progress in writing every week, and a staging URL lets your team check work between demos. We are not the right fit if your procurement rules require a Singapore-registered vendor, on-site staff or local security clearance.
 
 ## Is a Nepal-based team a realistic alternative to a Singapore agency?
 

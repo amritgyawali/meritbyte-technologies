@@ -1,7 +1,7 @@
 ---
 title: Websites for Education Consultancies in Nepal: Turning Enquiries Into Enrolled Students
 seoTitle: Education Consultancy Website in Nepal: What It Needs
-description: What an education consultancy website in Nepal needs in 2026: destination pages students search for, an enquiry system, trust signals and safe document handling.
+description: What an education consultancy website in Nepal needs in 2026: pages students search for, an enquiry system, trust signals and safe document handling.
 date: 2026-09-27
 category: nepal
 order: 11

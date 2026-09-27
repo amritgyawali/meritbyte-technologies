@@ -27,7 +27,7 @@ Getting the local details right on a modest budget. New Zealand businesses rarel
 7. **Accounting that connects.** Many NZ small businesses run Xero, so invoices, payments and store orders should flow into it rather than being re-keyed.
 8. **An editor you can use yourself.** WordPress or Shopify, with a short training session at handover.
 
-### How we work against that list
+### Our approach, measured against the list
 
 We start with a free scoping conversation and send back a written scope, a timeline and a number. Beyond a fixed-price first milestone, you buy fortnightly blocks of work, see a demo as each one closes, and are free to walk away at any of those points. A single project manager writes to you weekly, a staging link is always open, and the domain, hosting, code and any ad accounts are registered to your business, with documentation handed over at the end.
 

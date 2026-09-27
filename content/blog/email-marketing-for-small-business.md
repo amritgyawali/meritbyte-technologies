@@ -16,7 +16,7 @@ Email marketing for small business still pays because the list belongs to you: n
 
 ## Is email marketing for small business still worth it?
 
-Yes, if you have something useful to say at least once a month. Email is the one channel where you own the audience, and the cost is low compared with paid ads.
+Yes, if you have something useful to say at least once a month. Email is the one channel where you own the audience, and the cost is low next to paid ads; our [small business marketing budget plan](/blog/digital-marketing-small-business-nepal) shows how the channels fit together.
 
 A social media page can lose reach overnight when a platform changes its feed. A list of customers who asked to hear from you moves with you when you change tools. Most email service providers (ESPs) such as Mailchimp, Brevo, MailerLite, Klaviyo and Kit have free or low-cost tiers for small lists, with prices rising as the list grows.
 
@@ -27,7 +27,7 @@ It is not worth much if nobody in the business will write the emails. A neglecte
 Ask at the moments people already trust you, give a specific reason to subscribe, and record their consent. Good email list building is slower than buying a list and far more valuable.
 
 - **At checkout:** an unticked "Email me new stock and offers" box. Pre-ticked boxes are not valid consent under UK and EU rules.
-- **On the website:** a form with a concrete promise ("One email a month with new arrivals and restock dates"), not "Subscribe to our newsletter".
+- **On the website:** a form with a concrete promise ("One email a month with new arrivals and restock dates"), not "Subscribe to our newsletter". The advice in our [landing page conversion checklist](/blog/landing-page-conversion-checklist) applies: one offer, few fields.
 - **In store or at events:** a QR code to the same web form, so consent is captured the same way every time.
 - **With a lead magnet:** a price list, a sizing guide or a checklist people actually want.
 
@@ -39,7 +39,7 @@ For every subscriber, keep a consent record: the email address, date and time, t
 
 Double opt-in means a new subscriber must click a confirmation link in an email before they join the list. It is not legally required in most countries, but it is the cleanest proof of consent and it keeps typos, bots and spam traps out.
 
-Single opt-in grows the list faster, and some people never click the confirmation. Reduce the drop-off with a thank-you page that says "Check your inbox, and your spam or Promotions folder, for a confirmation link", and a confirmation email with a plain subject line and one button.
+Single opt-in grows faster, and some people never confirm. Reduce the drop-off with a thank-you page that says "Check your inbox, and your spam or Promotions folder, for a confirmation link", and a confirmation email with a plain subject line and one button.
 
 A sensible default: double opt-in for website sign-ups, where bots and mistyped addresses are common; a clear welcome email for customers who opted in at checkout, where the address has already been used for a real order.
 
@@ -105,7 +105,7 @@ Clicks, conversions, unsubscribes and spam complaints. Open rates have been unre
 
 - Click rate, compared with your own earlier campaigns rather than published averages.
 - Sales or enquiries per campaign, tracked with UTM tags in GA4.
-- Unsubscribe spikes after particular types of email.
+- Unsubscribe spikes after particular emails.
 - Spam rate in Google Postmaster Tools, once your volume is high enough for data to appear.
 - Hard bounces, which your ESP should suppress automatically.
 

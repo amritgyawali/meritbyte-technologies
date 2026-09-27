@@ -26,7 +26,7 @@ Partly, and better than most people expect. Nepal is UTC+5:45 with no daylight s
 | ACDT: South Australia in summer | +10:30 | 4h45m | 9:15 a.m. |
 | AWST: Western Australia all year | +8 | 2h15m | 11:45 a.m. |
 
-Daylight saving in the south-eastern states runs from the first Sunday in October to the first Sunday in April. In practice, feedback a Sydney client sends at lunchtime can often be on staging before the end of their day. Perth has the widest overlap, and Brisbane, which never changes its clocks, keeps a 4h15m gap all year; see our notes for a [web developer in Brisbane](/website-developer/brisbane).
+Daylight saving in the south-eastern states runs from the first Sunday in October to the first Sunday in April. In practice, small fixes a Sydney client asks for at lunchtime can often be on staging before the end of their day. Perth has the widest overlap, and Brisbane, which never changes its clocks, keeps a 4h15m gap all year; see our notes for a [web developer in Brisbane](/website-developer/brisbane).
 
 ## What makes the best website developer in Australia?
 
@@ -110,7 +110,7 @@ Possibly not, but check before assuming. Businesses with annual turnover of $3 m
 
 ### What hours can we actually talk?
 
-A Nepal morning meets your afternoon. In winter, 2 p.m. in Sydney or Melbourne is 9:45 a.m. in Nepal; during daylight saving it is 8:45 a.m. Brisbane stays at 4h15m ahead all year, and Perth, 2h15m ahead, overlaps most of a Nepal working day. Demos are booked in that window.
+A Nepal morning meets your afternoon. In winter, 2 p.m. in Sydney or Melbourne is 9:45 a.m. in Nepal; during daylight saving it is 8:45 a.m. Brisbane stays at 4h15m ahead all year, and Perth, 2h15m ahead, overlaps more than half of a Nepal working day. Demos are booked in that window.
 
 ### Should my online store offer Afterpay?
 
