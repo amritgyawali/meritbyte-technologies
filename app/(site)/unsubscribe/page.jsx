@@ -1,4 +1,3 @@
-import SiteBar from "../free-website/site-bar";
 
 export const metadata = {
   title: "Unsubscribe | Meritbyte Technologies",
@@ -20,7 +19,6 @@ export default async function UnsubscribePage({ searchParams }) {
 
   return (
     <>
-      <SiteBar />
       <main id="main" className="section signup">
         <div className="container signup__narrow">
           <div className="signup__panel signup__state">

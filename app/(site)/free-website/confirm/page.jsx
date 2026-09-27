@@ -1,5 +1,4 @@
 import { readToken } from "../../../../lib/signup";
-import SiteBar from "../site-bar";
 
 export const metadata = {
   title: "Confirm your free website design | Meritbyte Technologies",
@@ -18,7 +17,6 @@ export default async function ConfirmPage({ searchParams }) {
 
   return (
     <>
-      <SiteBar />
       <main id="main" className="section signup">
         <div className="container signup__narrow">
           {payload ? (
