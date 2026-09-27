@@ -70,7 +70,7 @@ No private-sector rule names a WCAG version, so WCAG 2.2 AA is the sensible targ
 
 Nominet runs the .uk registry; .co.uk remains the default choice for UK businesses, with the shorter .uk also available. Register it to your company, not to a person or a developer.
 
-For payments, Stripe and PayPal cover cards and wallets, GoCardless handles Direct Debit for subscriptions and retainers, and Klarna or Clearpay add pay-later options for retail. Open Banking pay-by-bank is increasingly offered for larger payments. We quote UK clients in sterling. If you are VAT-registered, services bought from an overseas supplier are normally accounted for under the reverse charge; your accountant will confirm.
+For payments, Stripe and PayPal cover cards and wallets, GoCardless handles Direct Debit for subscriptions and retainers, and Klarna or Clearpay add pay-later options for retail. Open Banking pay-by-bank is increasingly offered for larger payments. If you are VAT-registered, services bought from an overseas supplier are normally accounted for under the reverse charge; your accountant will confirm.
 
 ## Should you hire a UK agency or a remote team?
 

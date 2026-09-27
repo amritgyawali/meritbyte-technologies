@@ -29,7 +29,7 @@ They reduce your legal and technical risk before they talk about colors and font
 
 ### Where Meritbyte stands on that list
 
-Points 3 and 7 describe how we set up every engagement: code, domains, hosting and payment accounts in the client's name, with documentation at handover, and quotes in US dollars. A free scoping call produces a scope, timeline and number; the first milestone is fixed-price, then two-week blocks each end with a demo, and you can stop after any block. Weekly written updates come from a single project manager, and the staging URL is available around the clock. We are the wrong choice if procurement requires a US-based vendor or US persons, or if you want workshops in your office.
+Points 3 and 7 describe how we set up every engagement: code, domains, hosting and payment accounts in the client's name, with documentation at handover. A free scoping call produces a scope, timeline and number; the first milestone is fixed-price, then two-week blocks each end with a demo, and you can stop after any block. Weekly written updates come from a single project manager, and the staging URL is available around the clock. We are the wrong choice if procurement requires a US-based vendor or US persons, or if you want workshops in your office.
 
 ## How do US and Nepal working hours line up?
 
@@ -97,7 +97,7 @@ The trade-offs are real. There are no in-person meetings: discovery, design revi
 
 ## What does it cost, and how do you pay a developer in Nepal?
 
-We quote in US dollars, paid by international transfer against milestones. A US agency and an offshore team differ mostly in hourly rate; the total still depends on scope, and typical market ranges are in [how much a website costs in the USA](/blog/website-cost-usa).
+The quote comes as a written scope with a fixed price for the first milestone. A US agency and an offshore team differ mostly in hourly rate; the total still depends on scope, and typical market ranges are in [how much a website costs in the USA](/blog/website-cost-usa).
 
 Put every quote on the same footing: page templates, integrations, who writes content, accessibility testing and support ([how to compare web development quotes](/blog/how-to-compare-web-development-quotes) has a checklist). A US company paying a foreign company for services performed outside the US normally collects a Form W-8BEN-E; confirm details with your accountant.
 
