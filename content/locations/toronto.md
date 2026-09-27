@@ -5,7 +5,7 @@ country: canada
 seoTitle: Web Developer in Toronto, Ontario | Meritbyte Technologies
 description: Hiring a web developer in Toronto? What AODA, PIPEDA and CASL require of your site, how Eastern-time overlap with a remote team works, and what to check.
 h1: Web developer in Toronto for accessible, AODA-ready websites
-lead: Meritbyte Technologies builds websites and web apps for Toronto businesses from Nepal. Your morning is our evening, so feedback you send at the end of your day is usually worked on before you are back at your desk.
+lead: Meritbyte Technologies builds websites and web apps for Toronto businesses from Nepal. Your morning is our evening, so feedback you send at the end of your day can be worked on before you are back at your desk.
 summary: In Toronto, look for a web developer who builds to at least WCAG 2.0 Level AA so the site satisfies Ontario's AODA, records email consent the way CASL expects, plans local search across the whole GTA rather than one postcode, and shows working progress on a staging site you can open at any time.
 keywords: ["web developer toronto", "web design toronto", "website development company toronto", "toronto web agency"]
 services: ["web-development", "website-design", "ui-ux-design", "seo-services"]
@@ -66,7 +66,7 @@ Nepal keeps UTC+5:45 year-round with no daylight saving. Against Toronto, that p
 | 1:00 p.m. | 10:45 p.m. | 11:45 p.m. |
 | 11:15 p.m. | 9:00 a.m. next day | 10:00 a.m. next day |
 
-The workable meeting window is the first two hours of your morning. Outside it, work moves in writing: comments you leave on staging in the afternoon are picked up during the Nepal working day, and the changes are waiting when you log in. The trade-off is real. Nobody from our team can drop into your office on King Street, and a question raised at 3 p.m. is answered the next morning, not the next hour. Our post on [working across time zones with an offshore team](/blog/working-across-time-zones-offshore-team) lists the habits that make this work.
+The workable meeting window is the first two hours of your morning. Outside it, work moves in writing: comments you leave on staging in the afternoon are picked up during the Nepal working day, and the changes are waiting when you log in. The trade-off is real. Nobody from our team can drop into your office on King Street, and a question raised at 3 p.m. is answered the next morning, not the next hour. Our post on [managing an offshore team across time zones](/blog/working-across-time-zones-offshore-team) lists the habits that make this work.
 
 ## How do Toronto customers search for local businesses?
 
@@ -91,7 +91,7 @@ For budget context, our [website design cost guide for Canada](/blog/website-cos
 
 ## How Meritbyte Technologies works with Toronto clients
 
-Our first conversation with a Toronto business is a free scoping call, and what comes out of it is a written scope, a schedule and a price. That first milestone's price is fixed. Beyond it, we plan two weeks at a time and show you a working demo as each fortnight closes, which is also where you can stop.
+Our first conversation with a Toronto business is a free scoping call, and what comes out of it is a written scope, a schedule and a price. That first milestone's price is fixed. Beyond it, we plan two weeks at a time and show you a working demo at the end of each block, which is also where you can stop.
 
 Your project manager, the one person accountable for the schedule, writes to you every week, and the staging site is yours to check whenever you like. Code, repositories, domain and hosting sit in your name, with documentation at handover, so moving to another firm later breaks nothing. A person replies to inquiries within one business day.
 

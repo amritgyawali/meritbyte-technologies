@@ -58,7 +58,7 @@ If you are in the last row, our guide to [white-label web development](/blog/whi
 
 ## Should you hire a web developer at all?
 
-Not always. If the site is under about ten pages, needs no integrations beyond a contact form and a booking widget, and you have a few days to spend on it, a builder such as Squarespace, Wix or Shopify can do the job well.
+Not always. If the site is under about ten pages, needs no integrations beyond a contact form and a booking widget, and you have a few days to spend on it, a hosted builder like Shopify, Wix or Squarespace can do the job well.
 
 Hire a developer when any of these apply:
 

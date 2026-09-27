@@ -12,7 +12,7 @@ posts: ["international-seo-guide", "shopify-vs-woocommerce-vs-custom-ecommerce",
 order: 7
 ---
 
-The best website developer in the UAE builds Arabic that reads as if it were designed in Arabic rather than mirrored from English, knows which of the country's data protection regimes applies to your licence, and connects a payment gateway your bank and customers accept. Meritbyte Technologies is a web and software development company based in Nepal that works for UAE clients remotely. We have no UAE office, trade licence or staff, so meetings happen on video, which near-identical working hours make easier than you might expect.
+The best website developer in the UAE builds Arabic that reads as if it were designed in Arabic rather than mirrored from English, knows which of the country's data protection regimes applies to your licence, and connects a payment gateway your bank and customers accept. Meritbyte Technologies is a Nepali web and software development company, and its UAE clients work with it entirely online. We have no UAE office, trade licence or staff, so meetings happen on video, which near-identical working hours make easier than you might expect.
 
 ## What makes the best website developer in the UAE?
 
@@ -66,7 +66,7 @@ A few UAE-specific points:
 - The dirham is pegged to the US dollar at 3.6725, so quotes and costs in either currency stay predictable.
 - VAT has been 5% since 2018, and consumer prices should be displayed with it included.
 
-Our [e-commerce development](/services/ecommerce-development) page covers how stores are built, and [Shopify vs WooCommerce vs custom e-commerce](/blog/shopify-vs-woocommerce-vs-custom-ecommerce) helps with the platform decision.
+For store builds, see [e-commerce development](/services/ecommerce-development); if you are still choosing a platform, [Shopify vs WooCommerce vs custom e-commerce](/blog/shopify-vs-woocommerce-vs-custom-ecommerce) sets out the trade-offs.
 
 ## How closely do Nepal and UAE working hours match?
 
@@ -88,9 +88,9 @@ Our [digital marketing](/services/digital-marketing) team runs campaigns from ad
 
 ## What does working with a Nepal-based team look like from the UAE?
 
-Close to working with a team in the next emirate, minus the office visits. Choose the engagement that suits you: a project with a fixed-price first milestone, a retainer with a set number of days each month, or embedded engineers who join your own standups. Project work runs in two-week blocks, each ending with a demo, and you can stop at the end of any block.
+Close to working with a team in the next emirate, minus the office visits. Choose the engagement that suits you: a project with a fixed-price first milestone, a retainer with a set number of days each month, or embedded engineers who join your own standups. Each fortnight of project work closes with a demo, and that is also your exit point if you decide to stop.
 
-You get one project manager, a written update every week and a staging URL your team can open at any time. Everything we set up (domain, hosting, gateway account, code repository) is registered to your company, with documentation at handover. The honest trade-offs are no face-to-face workshops and the need to supply Arabic copy from a native writer. The large Nepali community in the UAE also means the two countries already have close working ties. Our guide on [how to hire a remote web developer](/blog/how-to-hire-a-remote-web-developer) lists what to check with any overseas supplier.
+A single project manager is your contact, sends a written summary each week and keeps a staging URL live for your team to check. Everything we set up (domain, hosting, gateway account, code repository) is registered to your company, with documentation at handover. The honest trade-offs are no face-to-face workshops and the need to supply Arabic copy from a native writer. The large Nepali community in the UAE also means the two countries already have close working ties. Before signing with any overseas supplier, including us, run through the checks in [how to hire a remote web developer](/blog/how-to-hire-a-remote-web-developer).
 
 ## Frequently asked questions
 

@@ -29,7 +29,7 @@ Getting the local details right on a modest budget. New Zealand businesses rarel
 
 ### How we work against that list
 
-We start with a free scoping conversation and send back a written scope, a timeline and a number. The first milestone has a fixed price; after that, work runs in two-week blocks, each ending with a demo, and you can stop at the end of any block. A single project manager writes to you weekly, a staging link is always open, and the domain, hosting, code and any ad accounts are registered to your business, with documentation handed over at the end.
+We start with a free scoping conversation and send back a written scope, a timeline and a number. Beyond a fixed-price first milestone, you buy fortnightly blocks of work, see a demo as each one closes, and are free to walk away at any of those points. A single project manager writes to you weekly, a staging link is always open, and the domain, hosting, code and any ad accounts are registered to your business, with documentation handed over at the end.
 
 ## How do Nepal and New Zealand hours overlap?
 
@@ -79,7 +79,7 @@ Google and Google Maps for services, Trade Me for buying and selling, and trade-
 
 For a local service business, the Google Business Profile often brings in more enquiries than the website itself; our guide to [Google Business Profile optimisation](/blog/local-seo-google-business-profile) walks through it. Tourism operators in places like Queenstown and Rotorua usually need an online booking tool integrated with the site, and exporters of food, wine or skincare need multi-currency pricing for Australian and Asian buyers. See [travel and tourism websites](/industries/travel-and-tourism) and [retail and e-commerce](/industries/retail-and-ecommerce).
 
-Our [SEO services](/services/seo-services) start with the technical basics, report rankings next to enquiries and revenue, and never use bought links.
+If search is your main channel, our [SEO services](/services/seo-services) track local rankings against the enquiries they actually produce, and we never pay for links.
 
 ## Is an offshore developer a sensible choice for a New Zealand business?
 
@@ -93,13 +93,13 @@ The conditions: a written scope agreed before work starts, work you can inspect 
 
 Yes, technically: separate language versions, correct macrons, language markup for screen readers and a language switcher. The translation itself should be done or reviewed by a fluent speaker who understands your field; we build the structure and publish the content, but we would not ask you to rely on us for the quality of the reo.
 
-### Does the Privacy Act apply to my small business?
+### Is my small business exempt from the Privacy Act?
 
-Yes. Unlike Australia's Privacy Act, New Zealand's Privacy Act 2020 has no turnover threshold; it applies to sole traders and small companies as well as large ones. For a typical website that means a clear privacy statement, collecting only what you use, keeping it secure and reporting serious breaches to the Privacy Commissioner.
+No. Unlike Australia's Privacy Act, New Zealand's Privacy Act 2020 has no turnover threshold; it applies to sole traders and small companies as well as large ones. For a typical website that means a clear privacy statement, collecting only what you use, keeping it secure and reporting serious breaches to the Privacy Commissioner.
 
 ### What time of day can we talk?
 
-Your afternoon, our early morning. During NZ winter, 3 p.m. in Auckland is 8:45 a.m. in Nepal; during daylight saving it is 7:45 a.m. Demos and calls are booked in that window, and everything else happens through the weekly written update, the staging site and email.
+Your afternoon, our early morning. During NZ winter, 3 p.m. in Auckland is 8:45 a.m. in Nepal; while New Zealand daylight time is in force, it is 7:45 a.m. Demos and calls are booked in that window, and everything else happens through the weekly written update, the staging site and email.
 
 ### Should I register .nz or .co.nz?
 

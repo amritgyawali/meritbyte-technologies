@@ -35,7 +35,7 @@ Item 8 reflects how we already work: code, domains, hosting and credentials belo
 
 For many projects, yes. The time difference is small, the technical work is the same, and the cost per hour is lower than most Singapore agencies charge. The trade-offs are no in-person meetings, a foreign vendor on your supplier list and the need for specifications in writing.
 
-Singapore is UTC+8 and Nepal is UTC+5:45; neither observes daylight saving, so the gap is 2h15m all year. When Nepal starts work at 9 a.m., it is 11:15 a.m. in Singapore, and Nepal's 6 p.m. finish is 8:15 p.m. in Singapore. That gives nearly seven hours of shared working time, plus a couple of hours in which fixes land after your office has closed.
+Singapore Standard Time is UTC+8 all year and Nepal stays on UTC+5:45, so Singapore is always exactly 2h15m ahead. When Nepal starts work at 9 a.m., it is 11:15 a.m. in Singapore, and Nepal's 6 p.m. finish is 8:15 p.m. in Singapore. That gives nearly seven hours of shared working time, plus a couple of hours in which fixes land after your office has closed.
 
 | Option | Typical strengths | Typical weaknesses |
 | --- | --- | --- |
@@ -75,7 +75,7 @@ If your platform sells regionally, keep SGD as the default and add other currenc
 
 Build in English first and add other languages where a real audience needs them. Consumer services such as clinics, tuition centres and eldercare often benefit from Chinese pages, and sometimes Malay or Tamil; B2B and regional headquarters sites usually stay in English.
 
-When you do add languages, use separate URLs with hreflang tags such as en-SG, zh-SG, ms-SG and ta-SG, and choose fonts that render Simplified Chinese and Tamil correctly (the Noto families cover both). Tamil in particular needs generous line height. Have each version written by a fluent writer, since machine translation reads poorly to native speakers. The [international SEO guide](/blog/international-seo-guide) explains hreflang, and our [UI/UX design](/services/ui-ux-design) work plans multilingual layouts from the start.
+When you do add languages, use separate URLs with hreflang tags such as en-SG, zh-SG, ms-SG and ta-SG, and choose fonts that render Simplified Chinese and Tamil correctly (the Noto families cover both). Tamil in particular needs generous line height. Have each version written by a fluent writer, since machine translation reads poorly to native speakers. Hreflang setup is covered in the [international SEO guide](/blog/international-seo-guide), and multilingual layouts are part of our [UI/UX design](/services/ui-ux-design) work, where navigation is sized for the longest language before designs are approved.
 
 ## What do regional HQs and regulated firms expect from a developer?
 

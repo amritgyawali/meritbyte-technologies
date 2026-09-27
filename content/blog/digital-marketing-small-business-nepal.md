@@ -105,7 +105,7 @@ Ask these before signing:
 
 Meritbyte Technologies is a Nepal-based web and software development company that also runs [digital marketing](/services/digital-marketing) and SEO. We set up tracking before spending on ads, keep every ad account, pixel and page in the client's name, and report results next to leads and revenue rather than likes. We do not buy links or followers.
 
-Work runs in two-week blocks with a written update every week, and you can stop at the end of any block. If you do not yet have a website to send ads to, our [free website design idea](/free-website) for small businesses is a sensible first step, and our page on [website development in Nepal](/website-developer/nepal) explains what we build for local businesses.
+Campaigns run in two-week blocks with a weekly written report, and there is no lock-in beyond the current block. If you do not yet have a website to send ads to, our [free website design idea](/free-website) for small businesses is a sensible first step, and our page on [website development in Nepal](/website-developer/nepal) explains what we build for local businesses.
 
 ## Frequently asked questions
 

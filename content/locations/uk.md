@@ -22,7 +22,7 @@ Legal hygiene first, design second. A developer worth hiring will pass all eight
 2. **A real privacy notice.** Lawful bases, retention periods and any processors outside the UK are named, not copied from a template.
 3. **VAT-inclusive consumer prices,** with no mandatory fees revealed only at the last step.
 4. **A compliant checkout.** Pre-contract information, the 14-day cancellation right for distance sales, and an order button that makes clear the customer is committing to pay.
-5. **WCAG 2.2 AA,** checked with a keyboard and a screen reader.
+5. **WCAG 2.2 AA with evidence:** a test log showing keyboard-only navigation and a screen reader pass on key templates.
 6. **Your .co.uk or .uk,** held by your company at a registrar you control.
 7. **Payments in your company's name.** Stripe, PayPal or GoCardless, with Strong Customer Authentication handled through 3-D Secure.
 8. **A written quote that lists exclusions,** so copywriting, photography and redirects are not surprise extras.

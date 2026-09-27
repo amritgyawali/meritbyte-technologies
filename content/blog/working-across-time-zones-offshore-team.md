@@ -47,7 +47,7 @@ Do not spend it reading status aloud. Status belongs in writing, where it can be
 
 ## What changes when the clocks change?
 
-Nepal never changes its clocks, so twice a year every recurring meeting moves by an hour on the Nepal side. A 9:00 am New York standup is 6:45 pm in Nepal in summer and 7:45 pm in winter.
+Nepal never changes its clocks, so twice a year every recurring meeting moves by an hour on the Nepal side. A standup booked for 9:00 am in London sits at 1:45 pm in Nepal from late March to late October, and at 2:45 pm for the rest of the year.
 
 The dates differ by country, which creates a few awkward weeks each spring and autumn:
 
@@ -92,7 +92,7 @@ Public holidays follow the Bikram Sambat calendar, so their Gregorian dates move
 
 ## How Meritbyte Technologies runs the overlap
 
-Meritbyte Technologies is a Nepal-based web and software development company working remotely with clients in the USA, the UK, Australia, Canada and elsewhere. Every project has one project manager, a written update every week, and a staging URL you can open at any time, which is most of what asynchronous work needs. Work runs in two-week blocks with a demo at the end of each, and if you prefer our engineers in your own standups, the Embedded model is built for that. A person replies to enquiries within one business day.
+Meritbyte Technologies is a Nepal-based web and software development company working remotely with clients in the USA, the UK, Australia, Canada and elsewhere. Every project has one project manager, a written update every week, and a staging URL you can open at any time, which is most of what asynchronous work needs. Work is planned in two-week blocks, each closed by a demo, and if you would rather have our engineers in your own standups, the Embedded model is built for that. A person replies to inquiries within one business day.
 
 Country-specific overlap details are on our pages for [website development in the USA](/website-developer/usa), [the UK](/website-developer/uk) and [Australia](/website-developer/australia). For the wider case for Nepal as a location, read [why companies outsource software development to Nepal](/blog/outsource-software-development-to-nepal); for the build itself, see our [custom software development](/services/software-development) services.
 
@@ -100,7 +100,7 @@ Country-specific overlap details are on our pages for [website development in th
 
 ### What time zone is Nepal in?
 
-Nepal uses Nepal Time (NPT), UTC+5:45, all year with no daylight saving. It is 15 minutes ahead of India, 4 hours 45 minutes ahead of the UK in summer and 5 hours 45 minutes in winter, and 9 hours 45 minutes ahead of US Eastern time in summer. It is 4 hours 15 minutes behind Brisbane and Sydney's standard time.
+Nepal uses Nepal Time (NPT), UTC+5:45, all year with no daylight saving. That puts it 15 minutes ahead of India; 4h45m ahead of London during British Summer Time and 5h45m during GMT; 9h45m ahead of New York in summer and 10h45m in winter; and 4h15m behind Brisbane all year.
 
 ### How much overlap does an offshore team need?
 

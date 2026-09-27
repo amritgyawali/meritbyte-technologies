@@ -20,7 +20,7 @@ Price follows the job the site has to do. A five-page site that proves you exist
 
 | Stage of business | What the site usually includes | Typical total (USD) |
 | --- | --- | --- |
-| Just starting | DIY builder such as Squarespace, Wix or Shopify Starter, a template, your own copy | Tens of dollars a month, plus your time |
+| Just starting | DIY on Squarespace, Wix or Shopify Starter with a template and your own copy | Tens of dollars a month, plus your time |
 | Established local business | 5-12 pages on WordPress or similar, custom design, contact forms, Google Business Profile setup | $2,000-$8,000 (freelancer), $8,000-$30,000 (agency) |
 | Growing service company | Booking, CRM integration, blog, landing pages for ads, accessibility testing | $10,000-$50,000 |
 | Online store | Shopify or WooCommerce, product import, shipping rules, sales tax setup, email flows | $5,000-$15,000 (freelancer), $15,000-$75,000+ (agency) |
@@ -44,7 +44,7 @@ Take a 15-page site for a service business: custom design, online booking throug
 | --- | --- | --- | --- | --- |
 | US agency | $150/hour | $18,000 | $27,000 | Little extra time; project management is included |
 | US freelancer | $90/hour | $10,800 | $16,200 | Your time coordinating design, copy and testing |
-| Offshore agency | $45/hour | $5,400 | $8,100 | Your time writing clear briefs and joining an early or late call each week |
+| Offshore agency | $45/hour | $5,400 | $8,100 | Your time on clear written briefs, plus one out-of-hours call a week |
 
 The rates are illustrations inside the typical ranges, not quotes. The point is the shape: the offshore line saves real money only if the brief is clear and someone on your side reviews work every week. Our guide to [comparing web development quotes](/blog/how-to-compare-web-development-quotes) explains how to line up proposals on hours per phase.
 
@@ -72,7 +72,7 @@ For online stores the bigger cost is collecting tax. Since the Supreme Court's 2
 
 ## Local agency, freelancer or offshore: which fits a US business?
 
-Pick by risk, not rate. A local agency fits when stakeholders need workshops and the launch date is fixed; a freelancer fits a well-defined small site; an offshore team fits ongoing or larger builds where you can manage by writing.
+Pick by risk, not rate. A local agency fits when stakeholders need workshops and the launch date is fixed; a freelancer fits a well-defined small site; an offshore team fits bigger or long-running work that you are able to manage in writing.
 
 - **Choose a US agency** if several departments must sign off, you need in-person brand workshops, or you operate in a regulated field and want a domestic contract and insurance.
 - **Choose a US freelancer** for a brochure site or a small Shopify build with a clear scope, when you are comfortable coordinating copy and photography yourself. Expect to collect a W-9 and, above the IRS reporting threshold, file a 1099-NEC unless the freelancer's business is a corporation; confirm the current threshold with your accountant.
@@ -84,7 +84,7 @@ Our guide on [how to hire a remote web developer](/blog/how-to-hire-a-remote-web
 
 Meritbyte Technologies is a Nepal-based web and software development company that works remotely with US businesses and agencies. We have no US office. The time difference is the arrangement, not a problem to hide: Nepal is on UTC+5:45 with no daylight saving, so it is 9 hours 45 minutes ahead of US Eastern time in summer (EDT) and 10 hours 45 minutes ahead in winter (EST). A 9:00 am New York call is 6:45 pm in Nepal in summer and 7:45 pm in winter; for Pacific time the gap is 12 hours 45 minutes (PDT) or 13 hours 45 minutes (PST).
 
-In practice, feedback you send in the afternoon is usually worked on overnight and waiting on the staging URL the next morning. The first milestone is fixed price, then work runs in two-week blocks with a demo after each; you can stop at the end of any block. Code, hosting, domains and Stripe accounts stay in your name. If you run an agency, our guide to [white-label web development](/blog/white-label-web-development) explains how that kind of partnership works. Local details are on our page for [website development in the USA](/website-developer/usa), and the build itself is described on our [web development services](/services/web-development) page.
+In practice, feedback you send in the afternoon is usually worked on overnight and waiting on the staging URL the next morning. Scoping is free and ends with a scope, a timeline and a number, and the first milestone is quoted as a fixed price. Later work is billed in two-week blocks, each closing with a demo, and you decide after each one whether to continue. Your Stripe account, domain, hosting and repositories are opened in your company's name, not ours. If you run an agency, our guide to [white-label web development](/blog/white-label-web-development) explains how that kind of partnership works. For US-specific notes on ADA, privacy and payments, see [website development for US businesses](/website-developer/usa); the build process itself is on our [web development services](/services/web-development) page.
 
 ## Frequently asked questions
 
@@ -102,4 +102,4 @@ No. Overlay widgets do not fix the underlying code, and websites using them have
 
 ### Is offshore web development really cheaper for US businesses?
 
-Usually, once the brief is clear. An offshore agency's hourly rate is commonly a fraction of a US agency's, but you pay some of the difference in your own time: writing tickets, reviewing staging builds and joining an early or late call each week. For well-scoped builds and ongoing retainers the saving is real; for vague projects it often disappears.
+Usually, once the brief is clear. An offshore agency's hourly rate is commonly a fraction of a US agency's, but you pay some of the difference in your own time: writing tickets, reviewing staging builds and taking the occasional early-morning call. For well-scoped builds and ongoing retainers the saving is real; for vague projects it often disappears.

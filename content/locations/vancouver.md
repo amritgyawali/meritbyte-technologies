@@ -13,7 +13,7 @@ posts: ["website-cost-canada", "international-seo-guide", "shopify-vs-woocommerc
 order: 17
 ---
 
-If you are hiring a web developer in Vancouver, three things separate a good one from a merely competent one: they know British Columbia has its own private-sector privacy law, they can build for customers on both sides of the Pacific, and they run a project you can follow without chasing. Meritbyte Technologies builds websites, online stores and software from Nepal, where our team is, and works for Vancouver clients remotely. We have no office or staff in BC, and the time difference is large enough to shape everything else, so we start there.
+If you are hiring a web developer in Vancouver, three things separate a good one from a merely competent one: they know British Columbia has its own private-sector privacy law, they can build for customers on both sides of the Pacific, and they run a project you can follow without chasing. Meritbyte Technologies is a web and software development company whose team works from Nepal, serving Vancouver clients remotely. We have no office or staff in BC, and the time difference is large enough to shape everything else, so we start there.
 
 ## How does a 12h45m time difference work for a Vancouver project?
 

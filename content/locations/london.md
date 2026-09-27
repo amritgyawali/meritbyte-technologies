@@ -13,11 +13,11 @@ posts: ["website-cost-uk", "headless-cms-guide", "offshore-vs-nearshore-vs-onsho
 order: 21
 ---
 
-A good web developer in London does more than build pages: they make the site behave the way UK data protection law and, for regulated firms, the Financial Conduct Authority expect. That means consent that is real, forms that match your privacy notice, and a publishing process your compliance team can sign off. Meritbyte Technologies is a Nepal-based development company for websites, web applications and software; London firms work with us remotely, as we have no UK office or UK staff, and we are open about what that does and does not change.
+A good web developer in London does more than build pages: they make the site behave the way UK data protection law and, for regulated firms, the Financial Conduct Authority expect. That means consent that is real, forms that match your privacy notice, and a publishing process your compliance team can sign off. Meritbyte Technologies is a Nepal-based development company for websites, web applications and software. Our team works for London firms remotely, with no UK office or UK staff, and we are open about what that does and does not change.
 
 ## What do London businesses need from a web developer?
 
-It depends on the sector, and each one brings its own rules.
+Each sector brings its own rules.
 
 - **Fintech and financial services:** product pages, onboarding journeys, app landing pages, calculators and help centres, often with Open Banking or card payments behind them.
 - **Law firms:** the SRA Transparency Rules require firms offering certain services, such as residential conveyancing, probate and immigration work, to publish price and service information, and SRA-regulated firms must display the SRA digital badge.

@@ -96,7 +96,7 @@ Meritbyte Technologies is a Nepal-based web and software development company tha
 
 Nepal runs on UTC+5:45 with no daylight saving, so it is 4 hours 15 minutes behind AEST and Brisbane, and 5 hours 15 minutes behind Sydney and Melbourne during daylight saving (AEDT). A 2:00 pm call in Sydney is 9:45 am in Nepal in winter and 8:45 am in summer. Perth is only 2 hours 15 minutes ahead of Nepal.
 
-The first milestone is fixed price; after that we work in two-week blocks with a demo at the end of each, and you can stop at the end of any block. You get a written update every week, a staging URL, and the domain, hosting and code in your business's name. There is more on the local specifics on our page for [website development in Australia](/website-developer/australia) and on our [web development services](/services/web-development).
+The useful consequence: feedback sent after lunch in Sydney lands at the start of the Nepali working day. Pricing starts with a fixed quote for the first milestone. Beyond that, work is sold in two-week blocks, each ending in a demo, with no obligation to buy the next one. Weekly written updates and a staging site keep progress visible, and the .com.au domain, hosting and code stay registered to your business. Local specifics, from GST to payment gateways, are collected on our [Australian website development](/website-developer/australia) page, and the build process on our [web development services](/services/web-development) page.
 
 ## Frequently asked questions
 

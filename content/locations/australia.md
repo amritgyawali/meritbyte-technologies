@@ -12,7 +12,7 @@ posts: ["website-cost-australia", "working-across-time-zones-offshore-team", "lo
 order: 3
 ---
 
-The best website developer in Australia knows the local rules (the Privacy Act 1988, the Spam Act 2003, GST-inclusive pricing and .com.au eligibility) and builds sites that are quick and accessible, whether the team works in Parramatta or overseas. We are Meritbyte Technologies, a web and software development company based in Nepal that works for Australian clients over video calls and shared staging links. We have no Australian office or staff, and this page is candid about what that means.
+The best website developer in Australia knows the local rules (the Privacy Act 1988, the Spam Act 2003, GST-inclusive pricing and .com.au eligibility) and builds sites that are quick and accessible, whether the team works in Parramatta or overseas. We are Meritbyte Technologies, a Nepal-based web and software development company; our Australian clients work with us over video calls and shared staging links. We have no Australian office or staff, and this page is candid about what that means.
 
 ## Can a team in Nepal work Australian business hours?
 
@@ -77,7 +77,7 @@ What that means for the build:
 - Pages for the suburbs or regions you genuinely serve, each with real detail, rather than a hundred near-identical doorway pages.
 - Quote and booking forms that work on a phone in a ute, with photo upload for trades.
 
-Our [SEO services](/services/seo-services) begin with technical fixes, report rankings next to leads and revenue, and never involve bought links.
+On the search side, our [SEO services](/services/seo-services) fix crawl and speed problems before any content is written, and reporting puts rankings beside leads and sales. We do not buy links.
 
 ## Which Australian industries is this approach suited to?
 

@@ -32,7 +32,7 @@ A good Canadian build gets the regulated details right first: consent, privacy, 
 1. A free scoping call, after which you receive a written scope, a timeline and a number.
 2. A fixed price for the first milestone, so the first decision carries no open-ended risk.
 3. Two-week blocks after that, each ending with a demo; you can stop at the end of any block.
-4. One project manager and a written update every week, plus a staging URL you can check whenever you like.
+4. One named project manager, a written progress note every week, and a staging site you can open whenever you like.
 5. Handover with documentation, and every account already in your name.
 
 ## Which Canadian time zone are you in, and when can we talk?
@@ -49,7 +49,7 @@ Nepal is UTC+5:45 and never changes its clocks, so it is 9h45m ahead of Toronto 
 | Mountain (−7 / −6) | Calgary, Edmonton | 12h45m / 11h45m | 9:45 p.m. / 8:45 p.m. |
 | Pacific (−8 / −7) | Vancouver, Victoria | 13h45m / 12h45m | 10:45 p.m. / 9:45 p.m. |
 
-Atlantic and Eastern clients get a comfortable morning call in the Nepal evening, and feedback sent before they leave the office is worked on overnight. West of Manitoba the live window shrinks, so most exchanges become written. City notes cover a [web developer in Toronto](/website-developer/toronto) and a [web developer in Vancouver](/website-developer/vancouver).
+Atlantic and Eastern clients get a comfortable morning call in the Nepal evening, and feedback sent before they leave the office is worked on overnight. West of Manitoba the live window shrinks, so most exchanges become written. Toronto and Vancouver each have their own page: [web developer in Toronto](/website-developer/toronto) covers AODA-heavy projects, and [web developer in Vancouver](/website-developer/vancouver) covers the Pacific-time routine.
 
 ## Which privacy law applies: PIPEDA, Law 25 or a provincial act?
 

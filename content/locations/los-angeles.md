@@ -5,7 +5,7 @@ country: usa
 seoTitle: Web Developer in Los Angeles | Meritbyte Technologies
 description: What to expect from a web developer in Los Angeles: fast video-heavy sites, CCPA-ready tracking, Shopify for DTC brands, Spanish pages and remote delivery.
 h1: Web developer in Los Angeles for fast, video-heavy and Shopify sites
-lead: Meritbyte Technologies builds sites and online stores for Los Angeles brands from Nepal. Your evening is our morning, so notes you leave after a shoot or a sales meeting are usually handled before you wake up.
+lead: Meritbyte Technologies builds sites and online stores for Los Angeles brands from Nepal. Your evening is our morning, so notes you leave after a shoot or a sales meeting can be handled before you wake up.
 summary: Look for a Los Angeles web developer who streams video instead of forcing large downloads, meets Core Web Vitals on real phones, configures ad pixels to respect CCPA/CPRA opt-outs and Global Privacy Control, builds Shopify stores that survive product drops, and treats Spanish as a full version of the site rather than a translation widget.
 keywords: ["web developer los angeles", "web design los angeles", "la web development company", "shopify developer los angeles"]
 services: ["ecommerce-development", "web-development", "website-design", "digital-marketing"]
@@ -76,7 +76,7 @@ Our [international SEO guide](/blog/international-seo-guide) explains the hrefla
 
 ## Working from Nepal on Pacific time
 
-Nepal leads Los Angeles by 12 hours 45 minutes in summer (PDT, UTC−7) and by 13 hours 45 minutes in winter (PST, UTC−8). LA's evening is Nepal's morning. A creative director in Culver City who leaves comments on staging at 6:00 p.m. in July is sending them at 6:45 a.m. Nepal time, just before the Nepal working day begins; in January, the same comment lands at 7:45 a.m. Either way, the revisions are usually on staging by the next LA morning.
+Nepal leads Los Angeles by 12 hours 45 minutes in summer (PDT, UTC−7) and by 13 hours 45 minutes in winter (PST, UTC−8). LA's evening is Nepal's morning. A creative director in Culver City who leaves comments on staging at 6:00 p.m. in July is sending them at 6:45 a.m. Nepal time, just before the Nepal working day begins; in January, the same comment lands at 7:45 a.m. Either way, the revisions can be on staging by the next LA morning.
 
 Live calls fit early in the LA morning (7:30 a.m. PDT is 8:15 p.m. in Nepal) or in the LA evening. The real constraint is launches: a drop at 9:00 a.m. Pacific falls at 9:45 p.m. Nepal time in summer, so launch-day cover has to be agreed in advance, never assumed. Nobody from our team can visit your studio or showroom.
 

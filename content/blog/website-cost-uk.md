@@ -12,7 +12,7 @@ related: ["how-to-compare-web-development-quotes", "freelancer-vs-web-developmen
 services: ["web-development", "website-design", "ecommerce-development"]
 ---
 
-Website cost in the UK in 2026 typically runs from about £1,000 to £5,000 for a small business site built by a freelancer, £4,000 to £15,000 from a small agency, and £10,000 to £50,000 or more for e-commerce and bespoke builds. These are typical market ranges, not fixed prices; they vary with scope, location, VAT and who does the work. What follows is what each budget band actually buys, and the UK-specific items that turn a cheap quote into an expensive launch.
+Website cost in the UK in 2026 typically runs from about £1,000 to £5,000 if you hire a freelancer for a small business site, £4,000 to £15,000 with a small agency, and £10,000 to £50,000 or more for e-commerce and bespoke builds. These are typical market ranges, not fixed prices; they vary with scope, location, VAT and who does the work. What follows is what each budget band actually buys, and the UK-specific items that turn a cheap quote into an expensive launch.
 
 ## How much does a website cost in the UK? What each budget band buys
 
@@ -20,7 +20,7 @@ Think in bands rather than averages. Each one buys a different kind of site, and
 
 | Budget | What you typically get | Usually from |
 | --- | --- | --- |
-| Under £1,000 | A builder such as Squarespace, Wix or Shopify with a template; you write the copy and supply the photos | You, or a freelancer for a day or two of setup |
+| Under £1,000 | A Squarespace, Wix or Shopify template; you write the copy and supply the photos | You, or a freelancer for a day or two of setup |
 | £1,000-£5,000 | 5-10 page WordPress or builder site, adapted template design, contact forms, basic on-page SEO | Freelancer or very small studio |
 | £5,000-£15,000 | Custom design, help with copy, booking or CRM integration, accessibility checks, redirects from the old site | Small agency or senior freelancer |
 | £15,000-£50,000 | Larger site with a design system, e-commerce with stock and shipping integrations, several stakeholders to satisfy | Established agency |
@@ -83,15 +83,15 @@ If you are a medium or large company engaging a freelancer through their own lim
 
 ## How Meritbyte Technologies works with UK clients
 
-Meritbyte Technologies is a Nepal-based web and software development company working remotely with UK businesses; we have no UK office. Nepal is on UTC+5:45 with no daylight saving, so it is 4 hours 45 minutes ahead of the UK in summer (BST) and 5 hours 45 minutes ahead in winter (GMT). A 9:00 am meeting in the UK is 1:45 pm in Nepal in summer and 2:45 pm in winter, so the UK morning, until roughly lunchtime, sits inside the Nepali working afternoon. Our guide to [working across time zones with an offshore team](/blog/working-across-time-zones-offshore-team) explains how to run that overlap.
+Meritbyte Technologies is a Nepal-based web and software development company working remotely with UK businesses; we have no UK office. Nepal stays on UTC+5:45 year-round, which puts it 4 hours 45 minutes ahead of the UK during British Summer Time and 5 hours 45 minutes ahead under GMT. A 9:00 am meeting in the UK is 1:45 pm in Nepal in summer and 2:45 pm in winter, so the UK morning, until roughly lunchtime, sits inside the Nepali working afternoon. Our guide to [working across time zones with an offshore team](/blog/working-across-time-zones-offshore-team) explains how to run that overlap.
 
-The first milestone is fixed price, then we work in two-week blocks with a demo at the end of each; you can stop at the end of any block. You get a written update every week, a staging URL you can open at any time, and the domain, hosting, code and analytics in your company's name. The UK details are on our page for [website development in the UK](/website-developer/uk), and the build itself on our [web development services](/services/web-development) page.
+Commercially, the first milestone carries a fixed price, and everything after it runs in two-week blocks that each finish with a demo; you are free to stop after any of them. Progress arrives as a written note every week, the staging site is open to you throughout, and the .co.uk domain, hosting, code and analytics accounts are held in your company's name. UK-specific notes live on our [UK website development](/website-developer/uk) page, and what a build includes is on the [web development](/services/web-development) service page.
 
 ## Frequently asked questions
 
-### How much does a small business website cost in the UK in 2026?
+### What do UK small businesses typically pay for a website?
 
-A 5-10 page small business website typically costs £1,000 to £5,000 from a freelancer and £4,000 to £15,000 from a small agency. These are typical market ranges that vary with design, copywriting, integrations, accessibility work and VAT. Sole traders can often start with a builder for a monthly fee. Budget for hosting, domain renewal and maintenance every year on top of the build.
+Most pay somewhere between £1,000 and £5,000 when a freelancer builds a 5-10 page site, and £4,000 to £15,000 when a small agency does. Those are typical market ranges; custom design, copywriting, integrations, accessibility testing and VAT decide where you land. A sole trader can start on a builder for a monthly fee. Hosting, domain renewal and maintenance come on top every year.
 
 ### Does a UK website need a cookie banner?
 

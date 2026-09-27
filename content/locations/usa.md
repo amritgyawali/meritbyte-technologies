@@ -29,7 +29,7 @@ They reduce your legal and technical risk before they talk about colors and font
 
 ### Where Meritbyte stands on that list
 
-Points 3, 6 and 7 describe how we set up every engagement: code, domains, hosting and payment accounts in the client's name, with documentation at handover. A free scoping call produces a scope, timeline and number; the first milestone is fixed-price, then two-week blocks each end with a demo, and you can stop after any block. One project manager sends a written update weekly, and a staging URL stays open. We are the wrong choice if procurement requires a US-based vendor or US persons, or if you want workshops in your office.
+Points 3, 6 and 7 describe how we set up every engagement: code, domains, hosting and payment accounts in the client's name, with documentation at handover. A free scoping call produces a scope, timeline and number; the first milestone is fixed-price, then two-week blocks each end with a demo, and you can stop after any block. Weekly written updates come from a single project manager, and the staging URL is available around the clock. We are the wrong choice if procurement requires a US-based vendor or US persons, or if you want workshops in your office.
 
 ## How do US and Nepal working hours line up?
 

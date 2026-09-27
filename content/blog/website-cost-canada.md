@@ -12,11 +12,11 @@ related: ["how-to-compare-web-development-quotes", "email-marketing-for-small-bu
 services: ["web-development", "website-design", "ecommerce-development"]
 ---
 
-Website design cost in Canada in 2026 typically falls between C$2,000 and C$7,000 for a small business site built by a freelancer, and C$7,000 to C$25,000 from a small agency, before GST/HST. Online stores, bilingual English-French builds and custom web apps cost more. These are typical market ranges that vary by province, scope and supplier, and Canada has a handful of rules that push quotes up in ways buyers do not always expect.
+Website design cost in Canada in 2026 typically falls between C$2,000 and C$7,000 when a freelancer builds a small business site, and C$7,000 to C$25,000 when a small agency does, before GST/HST. Online stores, bilingual English-French builds and custom web apps cost more. These are typical market ranges that vary by province, scope and supplier, and Canada has a handful of rules that push quotes up in ways buyers do not always expect.
 
 ## How much does website design cost in Canada?
 
-The kind of site sets the range; the supplier and the Canadian requirements set where you land within it. All figures below are typical market ranges before sales tax, not quotes.
+Start with what the site has to do, because that fixes the band. Supplier choice and Canadian requirements then decide where in the band you end up. All figures below are typical market ranges before sales tax, not quotes.
 
 | Project | Typical range (CAD, before tax) | Usually built by |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Quebec's Charter of the French Language, strengthened by Bill 96 in 2022, requir
 
 ### CASL consent on every form
 
-Canada's Anti-Spam Legislation has applied to commercial email since 2014, with penalties of up to C$10 million per violation for businesses. On the website that means unticked consent boxes, clear wording about what people are signing up for, a record of when and where consent was given, and an unsubscribe that is processed within 10 business days. Our guide to [email marketing for small businesses](/blog/email-marketing-for-small-business) covers consent and deliverability in more detail.
+Canada's Anti-Spam Legislation has applied to commercial email since 2014, with penalties of up to C$10 million per violation for businesses. On the website that means unchecked consent boxes, clear wording about what people are signing up for, a record of when and where consent was given, and an unsubscribe that is processed within 10 business days. Our guide to [email marketing for small businesses](/blog/email-marketing-for-small-business) covers consent and deliverability in more detail.
 
 ### Privacy: PIPEDA, Law 25 and provincial laws
 
@@ -85,19 +85,19 @@ The sales tax a Canadian supplier charges generally depends on where your busine
 
 Choose by what the project needs, then by price. If the site must be bilingual, pass AODA review and satisfy a legal team, a Canadian agency with translation partners may be worth its rate. If it is a small English-only site with a clear brief, a local freelancer is often the best value.
 
-An offshore team makes sense for larger builds, e-commerce and ongoing retainers, where you can give written feedback on a staging site and do not need in-person workshops. It also works well alongside a Canadian translator or accessibility auditor you hire directly. The questions to settle before signing are the same everywhere: who owns the code and accounts, how often you will see working software, and where your customers' data will be accessed from. Our guide to [comparing web development quotes](/blog/how-to-compare-web-development-quotes) turns those into a checklist, and our [offshore vs nearshore vs onshore comparison](/blog/offshore-vs-nearshore-vs-onshore-development) weighs the models.
+An offshore team makes sense for larger builds, e-commerce and ongoing retainers, where your team is comfortable reviewing work in writing and does not need in-person workshops. It also works well alongside a Canadian translator or accessibility auditor you hire directly. The questions to settle before signing are the same everywhere: who owns the code and accounts, how often you will see working software, and where your customers' data will be accessed from. Our guide to [comparing web development quotes](/blog/how-to-compare-web-development-quotes) turns those into a checklist, and our [offshore vs nearshore vs onshore comparison](/blog/offshore-vs-nearshore-vs-onshore-development) weighs the models.
 
 ## How Meritbyte Technologies works with Canadian businesses
 
-Meritbyte Technologies is a Nepal-based web and software development company that works remotely with Canadian businesses; we have no Canadian office. Nepal is on UTC+5:45 with no daylight saving, so it is 9 hours 45 minutes ahead of Toronto and Ottawa in summer (EDT) and 10 hours 45 minutes ahead in winter (EST). For Vancouver the gap is 12 hours 45 minutes (PDT) or 13 hours 45 minutes (PST). A 9:00 am Toronto call is 6:45 pm in Nepal in summer; for Vancouver, most collaboration is asynchronous, with a short early-morning or evening window.
+Meritbyte Technologies is a Nepal-based web and software development company that works remotely with Canadian businesses; we have no Canadian office. Nepal keeps UTC+5:45 all year, so the gap to Canada changes only when Canadian clocks do: 9h45m to Toronto and Ottawa in summer and 10h45m in winter, 12h45m to Vancouver in summer and 13h45m in winter. Halifax is an hour closer than Toronto, and St. John's an hour and a half closer. With Toronto, the live window is the start of the Canadian day and the end of the Nepali one; with Vancouver, collaboration is mostly asynchronous.
 
-The first milestone is fixed price; after that we work in two-week blocks with a demo after each, and you can stop at the end of any block. You get one project manager, a written update every week, a staging URL, and the code, domain and hosting in your company's name. Building and testing on staging data rather than live customer records also keeps a Law 25 assessment simpler. More on the Canadian specifics is on our page for [website development in Canada](/website-developer/canada), and on our [website design services](/services/website-design).
+Engagements start with a fixed-price first milestone. From there, two-week blocks each end with a working demo, and stopping after any block costs nothing extra. A single project manager is your contact, sending a written report each week alongside a staging link, and the code, domain and hosting sit in your company's accounts throughout. Building and testing on staging data rather than live customer records also keeps a Law 25 assessment simpler. Canada-specific notes, from CASL to bilingual builds, are collected on our [Canadian website development](/website-developer/canada) page, and design work is described under [website design services](/services/website-design).
 
 ## Frequently asked questions
 
-### How much does a small business website cost in Canada in 2026?
+### What should a Canadian small business budget for a website?
 
-A 5-12 page small business website typically costs C$2,000 to C$7,000 from a freelancer and C$7,000 to C$25,000 from a small agency, before GST/HST. These are typical market ranges that vary with design, content, integrations and accessibility testing. A French version adds translation and extra QA. Budget separately for hosting, domain renewals and maintenance each year.
+For a 5-12 page English-only site, budget roughly C$2,000 to C$7,000 with a freelancer or C$7,000 to C$25,000 with a small agency, plus GST/HST. Treat those as typical market ranges rather than quotes; custom design, content, integrations and accessibility work all move the number. Adding French means translation and a second QA pass. Keep a separate yearly line for hosting, domain renewal and maintenance.
 
 ### Does my website need to be in French?
 
@@ -105,7 +105,7 @@ If your business operates in Quebec or aims its commercial content at Quebec cus
 
 ### What does CASL mean for my website's forms?
 
-Any form that adds people to marketing emails needs an unticked consent checkbox, plain wording about what they will receive, your business identification, and a stored record of the consent. Every commercial email must include a working unsubscribe, processed within 10 business days. Contact forms that only answer the enquiry do not need marketing consent, but should not quietly add people to a newsletter.
+Any form that adds people to marketing emails needs an unchecked consent checkbox, plain wording about what they will receive, your business identification, and a stored record of the consent. Every commercial email must include a working unsubscribe, processed within 10 business days. Contact forms that only answer the inquiry do not need marketing consent, but should not quietly add people to a newsletter.
 
 ### Is it cheaper to hire an offshore web developer from Canada?
 
