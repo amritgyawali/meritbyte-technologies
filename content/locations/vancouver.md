@@ -13,7 +13,7 @@ posts: ["website-cost-canada", "international-seo-guide", "shopify-vs-woocommerc
 order: 17
 ---
 
-If you are hiring a web developer in Vancouver, three things separate a good one from a merely competent one: they know British Columbia has its own private-sector privacy law, they can build for customers on both sides of the Pacific, and they run a project you can follow without chasing. Meritbyte Technologies is a Nepal-based web and software development company that works for Vancouver clients remotely. We have no office or staff in BC, and the time difference is large enough to shape everything else, so we start there.
+If you are hiring a web developer in Vancouver, three things separate a good one from a merely competent one: they know British Columbia has its own private-sector privacy law, they can build for customers on both sides of the Pacific, and they run a project you can follow without chasing. Meritbyte Technologies builds websites, online stores and software from Nepal, where our team is, and works for Vancouver clients remotely. We have no office or staff in BC, and the time difference is large enough to shape everything else, so we start there.
 
 ## How does a 12h45m time difference work for a Vancouver project?
 
@@ -66,7 +66,7 @@ Many Vancouver businesses sell to customers in Asia, or to Asian-Canadian commun
 3. **Show local currencies and payment methods.** Shopify Markets and Stripe both support multi-currency pricing, and Stripe offers Asian wallets such as Alipay in some markets; confirm availability for your account.
 4. **Handle tax and duties in the open.** BC shoppers expect 5% GST and 7% PST calculated correctly at checkout, and overseas buyers want to know whether duties are included before they pay.
 
-Our [international SEO guide](/blog/international-seo-guide) covers hreflang and URL structure, and [Shopify vs WooCommerce vs custom e-commerce](/blog/shopify-vs-woocommerce-vs-custom-ecommerce) helps if you are choosing a platform for a cross-border store.
+Our [international SEO guide](/blog/international-seo-guide) covers hreflang and URL structure, and [Shopify vs WooCommerce vs custom e-commerce](/blog/shopify-vs-woocommerce-vs-custom-ecommerce) is worth reading before you pick a platform for a cross-border store.
 
 ## What to look for in a web developer in Vancouver
 
@@ -83,7 +83,7 @@ If you are weighing a remote team against a local shop, [offshore vs nearshore v
 
 ## A two-week block with Meritbyte Technologies, seen from Vancouver
 
-Before any block comes a free scoping conversation; you leave it with a written scope, a timeline and a price, and the price of that first milestone is fixed. From then on, every block follows the same rhythm:
+Before any block comes a free scoping conversation; you leave it knowing the scope, the schedule and the price, and that first milestone's price is fixed. From then on, every block follows the same rhythm:
 
 1. It opens with a written plan: what will be built in the next two weeks and how you will know it is done.
 2. Work happens during the Nepal day, which is your night, and lands on a staging site that is always open to you.

@@ -17,9 +17,9 @@ A web developer in New York is judged by two audiences most owners never think a
 
 ## Why do so many ADA website lawsuits land in New York?
 
-The Southern and Eastern Districts of New York are among the busiest federal courts for website cases under Title III of the Americans with Disabilities Act, and plaintiffs often add claims under the New York State and New York City human rights laws, which, unlike Title III, can allow damages. Retail and restaurant sites are frequent targets.
+The Southern and Eastern Districts of New York are among the busiest federal courts for website cases under the Americans with Disabilities Act (Title III), and plaintiffs often add claims under the New York State and New York City human rights laws, which, unlike Title III, can allow damages. Retail and restaurant sites are frequent targets.
 
-No federal regulation sets a technical standard for private business websites. The Justice Department's 2024 rule adopting WCAG 2.1 Level AA covers state and local governments, not private companies, but demand letters and settlements routinely use WCAG 2.1 AA as the yardstick. Building to [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA covers it.
+Private business websites have no federally codified technical standard. The Justice Department's 2024 rule adopting WCAG 2.1 Level AA covers state and local governments, not private companies, but demand letters and settlements routinely use WCAG 2.1 AA as the yardstick. Building to [WCAG 2.2](https://www.w3.org/TR/WCAG22/) AA covers it.
 
 What a developer should do, rather than promise:
 
@@ -74,7 +74,7 @@ A Manhattan agency's rates carry Manhattan rents and salaries; a freelancer cost
 - **Freelancer:** good for a contained site with a clear brief; risky when that one person gets sick or busy.
 - **Remote team:** similar engineering at lower cost, with a written process. Works when you can review asynchronously and have one decision-maker.
 
-Plenty of New York agencies use remote teams behind the scenes; our guide to [white-label web development](/blog/white-label-web-development) explains how those partnerships run. For typical market ranges, see [how much a website costs in the USA](/blog/website-cost-usa), and use [how to compare web development quotes](/blog/how-to-compare-web-development-quotes) before choosing.
+Plenty of New York agencies use remote teams behind the scenes; our guide to [white-label web development](/blog/white-label-web-development) explains how those partnerships run. For typical market ranges, see our [US website cost guide](/blog/website-cost-usa), and use [how to compare web development quotes](/blog/how-to-compare-web-development-quotes) before choosing.
 
 ## What to look for in a web developer in New York
 

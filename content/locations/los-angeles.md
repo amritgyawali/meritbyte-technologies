@@ -87,7 +87,7 @@ Live calls fit early in the LA morning (7:30 a.m. PDT is 8:15 p.m. in Nepal) or 
 - They have launched Shopify stores and can describe what went wrong on launch day.
 - They treat Spanish as a full site version, not a plugin.
 - They test accessibility by hand and can show you how.
-- Your store, domain, ad accounts and code are registered in your name.
+- Your store, domain, ad accounts and code belong to your company from day one.
 
 ## How Meritbyte Technologies runs a Los Angeles project
 
@@ -95,12 +95,12 @@ Live calls fit early in the LA morning (7:30 a.m. PDT is 8:15 p.m. in Nepal) or 
 | --- | --- |
 | Free scoping conversation ending in a scope, timeline and number | You know the first milestone's cost before committing |
 | Fixed price on the first milestone | The riskiest phase has a ceiling |
-| Two-week blocks, each ending in a demo | You can stop after any block if priorities shift before a launch |
+| Two-week blocks with a demo to close each | An exit point every two weeks if priorities shift before a launch |
 | One project manager and a written weekly update | Decisions survive the time difference |
 | A staging URL open at any time | Your team reviews on its own schedule |
 | Store, domain, ad accounts and code in your name | Nothing breaks if you change agencies |
 
-We do not buy links, and we report SEO next to leads and revenue. The [USA page](/website-developer/usa) covers how we work with American clients more broadly.
+Links are never bought, and SEO results are reported alongside leads and revenue. The [USA page](/website-developer/usa) covers how we work with American clients more broadly.
 
 ## Frequently asked questions
 

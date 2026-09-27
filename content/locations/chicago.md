@@ -86,7 +86,7 @@ For budget context on portals and integrations, see [custom software development
 
 1. **Scoping.** A free conversation; afterwards you get a written scope, timeline and cost.
 2. **A fixed-price first milestone.** A sensible first step is the catalog and RFQ flow, or a read-only portal running against your ERP sandbox.
-3. **Two-week blocks.** Each ends in a demo, and you can stop after any block.
+3. **Fortnightly increments.** Each closes with a demo, which doubles as your exit point if you want one.
 4. **Visibility.** One project manager, a weekly written report, and staging access at any hour.
 5. **Handover.** Documentation for your IT team, with code, repositories, hosting and credentials in your name.
 

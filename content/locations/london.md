@@ -38,10 +38,10 @@ A checklist for the developer:
 2. "Reject all" sits on the first layer of the banner with the same prominence as "Accept all".
 3. Google Consent Mode v2 is set up if you run Google Ads or GA4 for UK visitors.
 4. Each form states its purpose, links to the privacy notice and keeps marketing consent separate from the enquiry.
-5. Marketing emails follow PECR: consent, or the soft opt-in for existing customers, with an unsubscribe link in every message.
+5. Marketing emails follow PECR: prior consent, except where the soft opt-in covers existing customers, and an unsubscribe link in every message.
 6. Personal data is kept only as long as your retention schedule allows.
 
-The Data (Use and Access) Act 2025 amends parts of UK GDPR and PECR, with changes commenced in stages; check the ICO's current guidance before assuming any cookie no longer needs consent.
+The Data (Use and Access) Act 2025 amends parts of UK GDPR and PECR, with changes commenced in stages, so read the ICO's latest guidance before assuming any cookie no longer needs consent.
 
 Using a developer outside the UK adds a transfer question, covered in the FAQ below. The simplest answer is often to keep developers on staging with synthetic data, with production access limited and logged.
 
@@ -94,15 +94,15 @@ For typical UK market ranges and what drives them, see [website cost in the UK](
 - A single project manager who writes to you weekly with progress, plus a staging link that always shows the current build.
 - Code, repositories, domains, hosting and credentials in your company's name, with documentation at handover.
 - No bought links, and SEO reported next to leads and revenue.
-- A person replies to enquiries within one business day.
+- Enquiries get a reply from a person within one business day.
 
 Read more about our [web development services](/services/web-development) and our work across the [UK](/website-developer/uk), or [contact us](/contact) to start the scoping conversation.
 
 ## Frequently asked questions
 
-### Can a developer outside the UK work with our customers' personal data?
+### Is it lawful for a Nepal-based developer to access our customers' personal data?
 
-Yes, lawfully, if the transfer is covered. Because Nepal has no UK adequacy regulations, you need a processor contract plus an International Data Transfer Agreement or the UK Addendum to the EU standard contractual clauses, and a transfer risk assessment. Many projects avoid most of this by giving developers anonymised or synthetic data and restricting production access.
+Yes, if the transfer is covered. Because Nepal has no UK adequacy regulations, you need a processor contract plus either the ICO's International Data Transfer Agreement or its UK Addendum to the EU standard contractual clauses, and a transfer risk assessment. Many projects avoid most of this by giving developers anonymised or synthetic data and restricting production access.
 
 ### Do we need a cookie banner if we only use Google Analytics?
 
