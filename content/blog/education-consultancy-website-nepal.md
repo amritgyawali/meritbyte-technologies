@@ -102,7 +102,7 @@ Typical market ranges for Nepali websites, and why they vary, are covered in [ho
 
 Meritbyte Technologies is a Nepal-based web and software development company, and for consultancies we usually map the student pipeline before designing a single page. Where the enquiry goes, and who acts on it, decides what the form asks and what the site needs to say.
 
-The first milestone, typically the site structure, the destination page template and a working enquiry-to-CRM connection, is fixed price. After that we work in two-week blocks with a demo at the end of each, and you can stop at the end of any block. You get one project manager, a written update every week and a staging URL you can open at any time. The domain, hosting, CRM and ad accounts are registered in your consultancy's name. More on how we build for schools, colleges and consultancies is on our [education industry page](/industries/education) and our [web development services](/services/web-development) page.
+The first milestone, typically the site structure, the destination page template and a working enquiry-to-CRM connection, is fixed price. After that we work in two-week blocks with a demo at the end of each, and you can stop at the end of any block. One project manager is your contact, you receive a written progress note each week, and the staging URL stays open for you to check. The domain, hosting, CRM and ad accounts are registered in your consultancy's name. More on how we build for schools, colleges and consultancies is on our [education industry page](/industries/education) and our [web development services](/services/web-development) page.
 
 ## Frequently asked questions
 

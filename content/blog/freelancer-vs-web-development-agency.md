@@ -73,7 +73,7 @@ There is also a middle route: a freelancer sets up a good builder template in a 
 
 Between the solo freelancer and the full agency sit small studios of two to ten people, and freelancers who bring in others as needed. These can combine a freelancer's rate with some of an agency's continuity.
 
-The question to ask is who, exactly, will do the work. A studio with a designer and two developers who have worked together for years can outperform a large agency. A "freelancer" who quietly subcontracts everything to people you never meet is a different proposition, and you should know which one you are hiring. Agencies subcontract too, so ask them the same question. Our guide on [how to hire a remote web developer](/blog/how-to-hire-a-remote-web-developer) lists the vetting questions that surface this.
+The question to ask is who, exactly, will do the work. A studio with a designer and two developers who have worked together for years can outperform a large agency. A "freelancer" who quietly subcontracts everything to people you never meet is a different proposition, and you should know which one you are hiring. Agencies subcontract too, so ask them the same question. The vetting questions in our [remote web developer hiring guide](/blog/how-to-hire-a-remote-web-developer) are designed to surface this.
 
 ## How do you protect yourself whichever you choose?
 

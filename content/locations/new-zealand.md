@@ -2,7 +2,7 @@
 name: New Zealand
 type: country
 seoTitle: Website Developer New Zealand | Meritbyte Technologies
-description: Hiring a website developer in New Zealand? What good work covers in 2026: Privacy Act 2020, GST-inclusive prices, te reo Māori macrons, .nz domains and NZ hours.
+description: Hiring a website developer in New Zealand? What to expect in 2026: Privacy Act 2020, GST-inclusive prices, te reo Māori macrons, .nz domains and NZ hours.
 h1: Website developer for New Zealand businesses, working from Nepal
 lead: Meritbyte Technologies is a Nepal-based team building websites for New Zealand businesses remotely. Nepal is 6 hours 15 minutes behind New Zealand in winter, so our morning meets your afternoon. The window is short, and we plan the work around it.
 summary: A good website developer for a New Zealand business handles te reo Māori macrons correctly, shows GST-inclusive consumer prices, follows the Privacy Act 2020 and the Unsolicited Electronic Messages Act 2007, registers your .nz domain in your name and builds pages that load quickly on mobile. Offshore teams suit NZ small businesses when the work is specified in writing.

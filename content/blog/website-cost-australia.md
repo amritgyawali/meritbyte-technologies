@@ -94,9 +94,9 @@ A useful rule when comparing quotes: ask what the first year costs in total, not
 
 Meritbyte Technologies is a Nepal-based web and software development company that works with Australian businesses remotely. We have no office in Australia and do not pretend otherwise; the arrangement works because Nepal's working day overlaps the east coast's afternoon.
 
-Nepal runs on UTC+5:45 with no daylight saving, so it is 4 hours 15 minutes behind AEST and Brisbane, and 5 hours 15 minutes behind Sydney and Melbourne during daylight saving (AEDT). A 2:00 pm call in Sydney is 9:45 am in Nepal in winter and 8:45 am in summer. Perth is only 2 hours 15 minutes ahead of Nepal.
+Nepal's clocks sit at UTC+5:45 and never change, which leaves Nepal 4 hours 15 minutes behind AEST and Brisbane, and 5 hours 15 minutes behind Sydney and Melbourne during daylight saving (AEDT). A 2:00 pm call in Sydney is 9:45 am in Nepal in winter and 8:45 am in summer. Perth is only 2 hours 15 minutes ahead of Nepal.
 
-The useful consequence: feedback sent after lunch in Sydney lands at the start of the Nepali working day. Pricing starts with a fixed quote for the first milestone. Beyond that, work is sold in two-week blocks, each ending in a demo, with no obligation to buy the next one. Weekly written updates and a staging site keep progress visible, and your .com.au domain, hosting and code stay registered to your business. Local specifics, from GST to payment gateways, are collected on our [Australian website development](/website-developer/australia) page, and the build process on our [web development services](/services/web-development) page.
+The useful consequence: feedback sent after lunch in Sydney lands at the start of the Nepali working day. Pricing starts with a fixed quote for the first milestone. Beyond that, work is sold in two-week blocks, each ending in a demo, with no obligation to buy the next one. Weekly written updates and a staging site keep progress visible, and your .com.au domain, hosting and code stay registered to your business. Local specifics, from GST to payment gateways, are collected on our [Australian website development](/website-developer/australia) page, and how a build runs under [web development](/services/web-development).
 
 ## Frequently asked questions
 

@@ -92,7 +92,7 @@ Public holidays follow the Bikram Sambat calendar, so their Gregorian dates move
 
 ## How Meritbyte Technologies runs the overlap
 
-Meritbyte Technologies is a Nepal-based web and software development company working remotely with clients in the USA, the UK, Australia, Canada and elsewhere. Every project has one project manager, a written update every week, and a staging URL you can open at any time, which is most of what asynchronous work needs. Work is planned in two-week blocks, each closed by a demo, and if you would rather have our engineers in your own standups, the Embedded model is built for that. A person replies to inquiries within one business day.
+Meritbyte Technologies is a Nepal-based web and software development company working remotely with clients in the USA, the UK, Australia, Canada and elsewhere. Each project has a single project manager, a weekly written update and an always-available staging URL, which between them cover most of what asynchronous work needs. Work is planned in two-week blocks, each closed by a demo, and if you would rather have our engineers in your own standups, the Embedded model is built for that. Inquiries get a reply from a person within one business day.
 
 Country-specific overlap details are on our pages for [website development in the USA](/website-developer/usa), [the UK](/website-developer/uk) and [Australia](/website-developer/australia). For the wider case for Nepal as a location, read [why companies outsource software development to Nepal](/blog/outsource-software-development-to-nepal); for the build itself, see our [custom software development](/services/software-development) services.
 

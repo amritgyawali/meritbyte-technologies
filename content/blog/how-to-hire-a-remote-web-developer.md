@@ -102,7 +102,7 @@ Most bad hires show warning signs in the first two weeks. Stop early if you see 
 
 Meritbyte Technologies is a Nepal-based web and software development company, and we expect clients to run every check above on us. The free scoping conversation ends with a written scope, timeline and number. The first milestone is fixed price and produces something real on a staging URL, so it works as a paid trial with a deliverable you keep. Further work comes in two-week blocks, each with a demo and a break point where you can walk away.
 
-You get one project manager, a written update every week, and code, repositories, domains and hosting in your name from the start. A person replies to inquiries within one business day. If the time difference is your main concern, our guide to [working across time zones with an offshore team](/blog/working-across-time-zones-offshore-team) explains how the overlap works, and our [web development services](/services/web-development) page describes the build. When you have quotes to weigh, use our checklist for [comparing web development quotes](/blog/how-to-compare-web-development-quotes).
+You get one project manager, a written update every week, and code, repositories, domains and hosting in your name from the start. A person replies to inquiries within one business day. If the time difference is your main concern, our [time-zone guide for offshore teams](/blog/working-across-time-zones-offshore-team) explains how the overlap works, and our [web development services](/services/web-development) page describes the build. When you have quotes to weigh, use our checklist for [comparing web development quotes](/blog/how-to-compare-web-development-quotes).
 
 ## Frequently asked questions
 

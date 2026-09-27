@@ -72,7 +72,7 @@ Onshore is right when the work genuinely needs people in the same room or under 
 
 Nearshore outsourcing beats offshore when the team needs many hours of live contact each day: pair programming with your engineers, frequent design reviews, or incident response during your business hours without an on-call rota. It also suits companies whose culture runs on meetings rather than documents.
 
-Offshore beats nearshore when the scope is well defined, the team is long-running and stable, and your organization is comfortable working in writing. The time difference can become an advantage: feedback sent at the end of your day is often worked through overnight and waiting on a staging site in the morning. Many companies run a hybrid, with an onshore product lead and designer and an offshore or nearshore build team. Our guide to [working across time zones with an offshore team](/blog/working-across-time-zones-offshore-team) covers how to run the overlap window.
+Offshore beats nearshore when the scope is well defined, the team is long-running and stable, and your organization is comfortable working in writing. The time difference can become an advantage: feedback sent at the end of your day is often worked through overnight and waiting on a staging site in the morning. Many companies run a hybrid, with an onshore product lead and designer and an offshore or nearshore build team. [Running an offshore team across time zones](/blog/working-across-time-zones-offshore-team) covers the overlap window in detail.
 
 ## Which legal and data questions apply to every model?
 
@@ -91,7 +91,7 @@ Four questions apply whether the team is down the road or across the world, but 
 4. Can the data leave your country, and under which legal mechanism?
 5. What is your year-one budget, including your own team's time?
 
-Mostly "few hours", "yes", "a named person", "yes" and "tight" points offshore. Mostly "all day" and "not yet" points onshore or nearshore. Our guide on [how to hire a remote web developer](/blog/how-to-hire-a-remote-web-developer) covers vetting once you have chosen.
+Mostly "few hours", "yes", "a named person", "yes" and "tight" points offshore. Mostly "all day" and "not yet" points onshore or nearshore. Once you have chosen, [hiring a remote web developer](/blog/how-to-hire-a-remote-web-developer) walks through the vetting.
 
 ## Where Meritbyte Technologies fits, honestly
 
