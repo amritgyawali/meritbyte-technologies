@@ -1,10 +1,11 @@
-import SiteBar from "../free-website/site-bar";
+import { pageMetadata } from "../../../lib/seo.mjs";
 
-export const metadata = {
-  title: "Subscribe | Meritbyte Technologies",
+export const metadata = pageMetadata({
+  title: "Subscribe to Website and App Ideas | Meritbyte Technologies",
   description:
-    "Subscribe your business to occasional emails from Meritbyte Technologies with practical ideas for websites and apps."
-};
+    "Subscribe your business to occasional emails from Meritbyte Technologies with practical ideas for websites and apps.",
+  path: "/subscribe"
+});
 
 const topics = [
   "Simple ways to get more customers from Google and social media",
@@ -18,7 +19,6 @@ const topics = [
 export default function SubscribePage() {
   return (
     <>
-      <SiteBar />
       <main id="main" className="section signup">
         <div className="container signup__grid">
           <div>

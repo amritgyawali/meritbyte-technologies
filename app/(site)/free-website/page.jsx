@@ -1,11 +1,13 @@
 import { CONSENT_TEXT } from "../../../lib/signup";
-import SiteBar from "./site-bar";
+import { pageMetadata } from "../../../lib/seo.mjs";
 
-export const metadata = {
-  title: "Free website design for your business | Meritbyte Technologies",
+export const metadata = pageMetadata({
+  title: "Free Website Design for Your Business | Meritbyte Technologies",
   description:
-    "Tell us about your business and we will send you a free design idea for its website. No payment, no obligation."
-};
+    "Small business without a good website? Tell us about it and Meritbyte Technologies will email you a free website design idea. No payment, no obligation.",
+  path: "/free-website",
+  keywords: ["free website design", "free website design nepal", "website for small business"]
+});
 
 const ERRORS = {
   email: "That email address does not look right. Please check it and try again.",
@@ -30,7 +32,6 @@ export default async function FreeWebsitePage({ searchParams }) {
 
   return (
     <>
-      <SiteBar />
       <main id="main" className="section signup">
         <div className="container signup__grid">
           <div>
