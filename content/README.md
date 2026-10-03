@@ -9,6 +9,7 @@ file into a static page:
 | `content/services/<slug>.md` | `/services/<slug>` | Service page |
 | `content/locations/<slug>.md` | `/website-developer/<slug>` | Country or city page |
 | `content/industries/<slug>.md` | `/industries/<slug>` | Industry page |
+| `content/technologies/<slug>.md` | `/technologies/<slug>` | Technology page |
 
 The planned pages, and the search terms each one targets, are in
 `scripts/content-plan.mjs` (the keyword map). One primary query per page, so
@@ -238,3 +239,33 @@ order: 1
 
 Body: 800-1,200 words, at least 5 H2 sections, then the FAQ section (3-5
 questions).
+
+### Technology page
+
+```yaml
+---
+title: Next.js
+seoTitle: Next.js Development Company | Hire Next.js Developers
+description: ...
+h1: Next.js development for sites that have to rank and apps that have to scale
+lead: ...
+summary: 40-60 words answering "What is <technology> and what does Meritbyte use it for?"
+keywords: ["next.js development company", "hire next.js developers", "next.js agency"]
+useFor: ["4-6 short items: what we build with it"]
+services: ["web-development", "seo-services"]
+related: ["react", "nodejs"]
+posts: ["nextjs-vs-wordpress", "headless-cms-guide"]
+entity: ["https://nextjs.org", "https://en.wikipedia.org/wiki/Next.js"]
+order: 1
+---
+```
+
+`entity` is the technology's official site and its Wikipedia page, used as
+`sameAs` in the structured data. `related` lists other technology slugs.
+Technology pages own "<technology> development company" and "hire
+<technology> developers"; leave the broader query to the service page.
+
+Body: 850-1,200 words, at least 5 H2 sections (what it is and when it is the
+right choice, what we build with it, how we work with it, comparisons with
+the alternatives, how a project runs), then the FAQ section (4-6 questions).
+Never claim partner or certification status with the vendor.

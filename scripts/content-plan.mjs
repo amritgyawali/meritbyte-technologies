@@ -18,20 +18,33 @@ export const STATIC_ROUTES = [
   "/careers",
   "/privacy",
   "/free-website",
-  "/subscribe"
+  "/subscribe",
+  "/technologies",
+  "/hire-developers",
+  "/glossary",
+  "/resources",
+  "/sitemap"
+];
+
+// Hand-written pages added after the first plan, with the query each owns.
+export const STATIC_TARGETS = [
+  { path: "/hire-developers", primary: "hire dedicated developers", also: ["dedicated development team", "hire developers in nepal", "offshore development team", "staff augmentation"], angle: "The Embedded model as a product: roles, how the first two weeks run, overlap hours, ownership, how it compares with freelancers and agencies." },
+  { path: "/glossary", primary: "web development glossary", also: ["seo glossary", "what is aeo", "what is geo", "digital marketing terms"], angle: "Short, quotable definitions of the terms on our pages, each linking to the guide or service that goes deeper. Built for answer engines." },
+  { path: "/resources", primary: "web development resources", also: ["website guides", "seo guides for small business"], angle: "Hub: guides by category, glossary, FAQ, free website design, newsletter." },
+  { path: "/technologies", primary: "technology stack", also: ["web development technologies", "software development stack"], angle: "Hub: the stack we build with and when each part is the right choice." }
 ];
 
 export const SERVICES = [
   { slug: "web-development", title: "Web development", primary: "web development company", also: ["web development services", "custom web development", "web application development"], angle: "Full custom websites and web apps: Next.js, React, Node, WordPress/headless; performance, accessibility, handover." },
   { slug: "website-design", title: "Website design", primary: "website design company", also: ["business website design", "professional website design", "responsive website design"], angle: "Design side for business sites: structure, copy, mobile-first layouts, brand, conversion; what a small business gets." },
-  { slug: "ecommerce-development", title: "E-commerce development", primary: "ecommerce website development", also: ["online store development", "shopify developer", "woocommerce developer"], angle: "Online stores: Shopify, WooCommerce, custom; payments (Stripe, eSewa/Khalti in Nepal), shipping, inventory, product SEO." },
+  { slug: "ecommerce-development", title: "E-commerce development", primary: "ecommerce website development", also: ["online store development", "ecommerce development company", "woocommerce developer"], angle: "Online stores: Shopify, WooCommerce, custom; payments (Stripe, eSewa/Khalti in Nepal), shipping, inventory, product SEO." },
   { slug: "wordpress-development", title: "WordPress development", primary: "wordpress developer", also: ["wordpress website design", "wordpress agency", "custom wordpress theme"], angle: "Custom themes/blocks, speed, security hardening, plugin discipline, migrations, maintenance." },
-  { slug: "mobile-app-development", title: "Mobile app development", primary: "mobile app development company", also: ["android app development", "ios app development", "flutter app development", "react native development"], angle: "iOS/Android with Flutter or React Native vs native, store submission, backend, analytics, maintenance." },
+  { slug: "mobile-app-development", title: "Mobile app development", primary: "mobile app development company", also: ["android app development", "ios app development", "mobile app developers", "app development company in nepal"], angle: "iOS/Android with Flutter or React Native vs native, store submission, backend, analytics, maintenance." },
   { slug: "software-development", title: "Custom software development", primary: "custom software development company", also: ["software development services", "bespoke software", "saas development"], angle: "Platforms, internal tools, APIs, integrations, SaaS, legacy migration; TypeScript, Python, Go, .NET." },
   { slug: "ai-development", title: "AI development", primary: "ai development company", also: ["ai chatbot development", "llm application development", "ai automation services"], angle: "LLM apps, RAG over company documents, document extraction, evaluation harness first, cost control, when not to use AI." },
   { slug: "seo-services", title: "SEO services", primary: "seo services", also: ["seo company", "technical seo", "aeo and geo services", "local seo"], angle: "Technical SEO first, content for buying intent, local SEO, AEO/GEO for AI answers, no bought links, reporting next to revenue." },
   { slug: "digital-marketing", title: "Digital marketing", primary: "digital marketing agency", also: ["google ads management", "social media marketing", "ppc management"], angle: "Paid search/social, email and lifecycle, tracking and attribution; ad accounts in client's name." },
-  { slug: "cloud-devops", title: "Cloud and DevOps", primary: "devops services", also: ["aws consulting", "cloud migration services", "ci/cd pipeline setup", "kubernetes consulting"], angle: "AWS/Azure/GCP, Terraform, CI/CD under ten minutes, monitoring, on-call runbooks, cost reviews." },
+  { slug: "cloud-devops", title: "Cloud and DevOps", primary: "devops services", also: ["cloud migration services", "ci/cd pipeline setup", "kubernetes consulting", "cloud infrastructure management"], angle: "AWS/Azure/GCP, Terraform, CI/CD under ten minutes, monitoring, on-call runbooks, cost reviews." },
   { slug: "ui-ux-design", title: "UI/UX design", primary: "ui ux design agency", also: ["ux design services", "product design", "user research"], angle: "Research, wireframes, prototypes tested with real users, design systems, accessibility." },
   { slug: "qa-testing", title: "QA and testing", primary: "software testing services", also: ["qa automation", "manual testing", "load testing"], angle: "Automated suites, regression before every release, load tests shaped like real traffic, device testing." },
   { slug: "cybersecurity", title: "Cybersecurity", primary: "cybersecurity services", also: ["website security audit", "penetration testing", "security hardening"], angle: "Code and infrastructure review, pen testing, hardening, incident plan, OWASP Top 10." },
@@ -78,6 +91,20 @@ export const INDUSTRIES = [
 ];
 
 // Blog posts. `n` is the order in the plan and the post's `order` field.
+// Technology pages own "<technology> development company" plus the "hire
+// <technology> developers" variant. Service pages own the broader query
+// (web development company, devops services...), so the two never compete.
+export const TECHNOLOGIES = [
+  { slug: "nextjs", title: "Next.js", primary: "next.js development company", also: ["hire next.js developers", "next.js agency", "next.js website development"], angle: "App Router, server rendering and static generation for marketing sites and web apps; SEO and Core Web Vitals; headless CMS; when WordPress is the better call." },
+  { slug: "react", title: "React", primary: "react development company", also: ["hire react developers", "react js development services", "react web app development"], angle: "Interactive front ends and dashboards; state, forms, data fetching, design systems, testing; React vs Next.js." },
+  { slug: "nodejs", title: "Node.js", primary: "node.js development company", also: ["hire node.js developers", "node.js api development", "node js backend development"], angle: "APIs, integrations, real-time features and background jobs in TypeScript; Express/Fastify/NestJS; Node vs Python vs Go." },
+  { slug: "python", title: "Python", primary: "python development company", also: ["hire python developers", "django development", "fastapi development"], angle: "Django and FastAPI back ends, data pipelines, automation scripts and AI/LLM work; when Python is and is not the right back end." },
+  { slug: "flutter", title: "Flutter", primary: "flutter app development company", also: ["hire flutter developers", "flutter app development services", "cross-platform app development"], angle: "One Dart codebase for iOS and Android; custom UI, offline, payments; store release; Flutter vs React Native." },
+  { slug: "react-native", title: "React Native", primary: "react native app development company", also: ["hire react native developers", "react native development services", "expo app development"], angle: "Cross-platform apps sharing code and people with a React web team; Expo, EAS, OTA updates; when native is the better choice." },
+  { slug: "shopify", title: "Shopify", primary: "shopify development agency", also: ["shopify experts", "shopify store setup", "shopify theme development"], angle: "Store setup and migration, Online Store 2.0 themes, apps, markets and payments; when Shopify beats WooCommerce or custom." },
+  { slug: "aws", title: "AWS", primary: "aws consulting services", also: ["aws cloud migration", "hire aws developers", "aws cost optimization"], angle: "Account structure, infrastructure as code, containers and serverless, cost control and backups on AWS; AWS vs Azure vs Google Cloud." }
+];
+
 export const POSTS = [
   // Nepal business
   { n: 1, slug: "website-cost-in-nepal", category: "nepal", title: "How Much Does a Website Cost in Nepal in 2026?", primary: "website cost in nepal", also: ["website price in nepal", "website design price in nepal", "ecommerce website cost nepal"] },
@@ -141,6 +168,7 @@ export const PLANNED_PATHS = new Set([
   ...SERVICES.map((s) => `/services/${s.slug}`),
   ...LOCATIONS.map((l) => `/website-developer/${l.slug}`),
   ...INDUSTRIES.map((i) => `/industries/${i.slug}`),
+  ...TECHNOLOGIES.map((t) => `/technologies/${t.slug}`),
   ...POSTS.map((p) => `/blog/${p.slug}`),
   "/blog/category/nepal",
   "/blog/category/costs-and-hiring",

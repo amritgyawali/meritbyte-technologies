@@ -5,7 +5,7 @@ description: DevOps services for AWS, Azure and Google Cloud: infrastructure in 
 h1: DevOps services for teams that want releases to be boring
 lead: Infrastructure written as code, CI/CD pipelines that finish in under ten minutes, and alerts that only fire when customers are affected.
 summary: Meritbyte's DevOps services cover cloud setup and migration on AWS, Azure and Google Cloud, infrastructure written in Terraform, CI/CD pipelines that finish in under ten minutes, monitoring with alerts tied to user impact, on-call runbooks and monthly cost reviews. Cloud accounts, repositories and Terraform state all stay in the client's name.
-keywords: ["devops services", "aws consulting", "cloud migration services", "ci/cd pipeline setup", "kubernetes consulting"]
+keywords: ["devops services", "cloud migration services", "ci/cd pipeline setup", "kubernetes consulting", "cloud infrastructure management"]
 deliverables: ["Infrastructure as Terraform code in your repository", "CI/CD pipelines that finish in under ten minutes", "Monitoring with alerts tied to user impact", "A runbook for every alert", "Cloud migration plan and rehearsed cutover", "Backups with tested restores", "Monthly cloud cost review"]
 technologies: ["AWS", "Azure", "Google Cloud", "Terraform", "Docker", "Kubernetes", "GitHub Actions", "GitLab CI", "Prometheus", "Grafana"]
 related: ["software-development", "cybersecurity", "managed-it-services"]
