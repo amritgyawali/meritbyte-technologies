@@ -5,7 +5,10 @@ const COMPANY = [
   { href: "/about", label: "About Meritbyte" },
   { href: "/process", label: "How we work" },
   { href: "/pricing", label: "Pricing" },
+  { href: "/hire-developers", label: "Hire developers" },
   { href: "/blog", label: "Blog" },
+  { href: "/resources", label: "Resources" },
+  { href: "/glossary", label: "Glossary" },
   { href: "/faq", label: "FAQ" },
   { href: "/careers", label: "Careers" },
   { href: "/contact", label: "Contact" },
@@ -18,6 +21,7 @@ export default function SiteFooter() {
   const services = getCollection("services");
   const countries = getCollection("locations").filter((l) => l.type === "country");
   const industries = getCollection("industries");
+  const technologies = getCollection("technologies");
 
   return (
     <footer className="footer">
@@ -49,6 +53,14 @@ export default function SiteFooter() {
               {services.map((s) => (
                 <li key={s.slug}>
                   <a href={`/services/${s.slug}`}>{s.title}</a>
+                </li>
+              ))}
+            </ul>
+            <h2 className="footer__subhead">Technologies</h2>
+            <ul>
+              {technologies.map((t) => (
+                <li key={t.slug}>
+                  <a href={`/technologies/${t.slug}`}>{t.title} development</a>
                 </li>
               ))}
             </ul>
@@ -91,7 +103,7 @@ export default function SiteFooter() {
         <div className="footer__base">
           <p>© {new Date().getFullYear()} Meritbyte Technologies. Based in Nepal, working worldwide.</p>
           <p>
-            <a href="/feed.xml">RSS</a> · <a href="/sitemap.xml">Sitemap</a> ·{" "}
+            <a href="/feed.xml">RSS</a> · <a href="/sitemap">Site map</a> ·{" "}
             <a href="/llms.txt">llms.txt</a>
           </p>
         </div>

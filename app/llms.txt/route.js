@@ -15,6 +15,7 @@ export function GET() {
   const locations = getCollection("locations");
   const industries = getCollection("industries");
   const posts = getCollection("blog");
+  const technologies = getCollection("technologies");
 
   const body = [
     companyFacts(),
@@ -25,11 +26,17 @@ export function GET() {
     link("How we work", "/process", "discovery, scope, fixed-price first milestone, two-week blocks, launch, support"),
     link("Pricing", "/pricing", "engagement models and what drives cost"),
     link("FAQ", "/faq", "common questions about cost, ownership, SEO, AEO, GEO and working remotely"),
+    link("Hire dedicated developers", "/hire-developers", "engineers who work inside the client's team under the Embedded model, priced per engineer per month"),
     link("Contact", "/contact", "start a project"),
     "",
     "## Services",
     "",
     ...services.map((s) => link(s.title, `/services/${s.slug}`, s.summary)),
+    "",
+    "## Technologies",
+    "",
+    link("Technology stack", "/technologies", "what we build with and how we choose"),
+    ...technologies.map((t) => link(`${t.title} development`, `/technologies/${t.slug}`, t.summary)),
     "",
     "## Website developer by location",
     "",
@@ -45,8 +52,14 @@ export function GET() {
       ...posts.filter((p) => p.category === slug).map((p) => link(p.title, `/blog/${p.slug}`, p.summary)),
       ""
     ]),
+    "## Reference",
+    "",
+    link("Glossary", "/glossary", "plain-English definitions of web development, SEO, AEO, GEO, cloud and AI terms"),
+    link("Resources", "/resources", "all guides by topic, plus free tools"),
+    "",
     "## Optional",
     "",
+    link("Site map", "/sitemap", "every page, grouped by section"),
     link("Full text of every page", "/llms-full.txt"),
     link("Sitemap", "/sitemap.xml"),
     link("RSS feed", "/feed.xml"),

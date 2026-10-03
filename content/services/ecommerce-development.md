@@ -5,7 +5,7 @@ description: Ecommerce website development on Shopify, WooCommerce or custom cod
 h1: Online stores that take payment, track stock and get found
 lead: Shopify, WooCommerce and custom stores, set up with the gateways your customers actually use, shipping and stock that match reality, and product pages built to rank.
 summary: Meritbyte's e-commerce development service builds online stores on Shopify, WooCommerce or a custom Next.js stack. It covers platform choice, catalog import, payment gateways for the market (Stripe, PayPal or Shopify Payments abroad; eSewa, Khalti and Fonepay in Nepal), shipping and tax rules, inventory sync, product SEO and analytics, with the store account in the client's name.
-keywords: ["ecommerce website development", "online store development", "shopify developer", "woocommerce developer"]
+keywords: ["ecommerce website development", "online store development", "ecommerce development company", "woocommerce developer"]
 deliverables: ["Platform recommendation with running costs", "Store theme designed for mobile checkout", "Catalog import with variants and images", "Payment gateways tested with real transactions and refunds", "Shipping zones, tax settings and order emails", "Product structured data and Merchant Center feed", "Ecommerce analytics events in GA4", "Staff training on orders, stock and returns"]
 technologies: ["Shopify", "WooCommerce", "WordPress", "Next.js", "Node.js", "PostgreSQL", "Stripe", "Google Merchant Center"]
 related: ["web-development", "wordpress-development", "digital-marketing"]

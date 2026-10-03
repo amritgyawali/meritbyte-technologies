@@ -47,6 +47,13 @@ const RULES = {
     minFaqs: 3,
     minH2: 4,
     minInternalLinks: 3
+  },
+  technologies: {
+    required: ["title", "seoTitle", "description", "h1", "lead", "summary", "keywords", "useFor", "services", "related", "posts", "order"],
+    minWords: 750,
+    minFaqs: 4,
+    minH2: 5,
+    minInternalLinks: 3
   }
 };
 
@@ -180,7 +187,12 @@ for (const file of listFiles()) {
       err(`city needs "country" set to a country location slug`);
     }
   }
-  if (["services", "locations", "industries", "blog"].includes(collection)) {
+  if (collection === "technologies") {
+    const techSlugs = slugsOf("technologies");
+    for (const s of entry.related || []) if (!techSlugs.has(s)) err(`related technology "${s}" does not exist`);
+    if (entry.related?.includes(entry.slug)) err("related lists the page itself");
+  }
+  if (["services", "locations", "industries", "blog", "technologies"].includes(collection)) {
     const serviceSlugs = slugsOf("services");
     const list = collection === "services" ? entry.related : entry.services;
     for (const s of list || []) if (!serviceSlugs.has(s)) err(`service "${s}" does not exist`);

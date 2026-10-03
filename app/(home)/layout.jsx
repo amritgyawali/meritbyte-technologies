@@ -1,11 +1,17 @@
 import "./globals.css";
 import "./subscribe.css";
 import SubscribePopup from "../subscribe-popup";
+import { baseMetadata } from "../../lib/seo.mjs";
 
-export const metadata = {
-  title: "Meritbyte | Full-Cycle IT Engineering",
-  description:
-    "Software, AI, web, marketing, search, and cloud engineering from Meritbyte."
+// The page sets its own title, description and canonical; this is the shared
+// base (site URL, icons, robots, verification) that every other page also has.
+export const metadata = baseMetadata();
+
+export const viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#f5f7fb" },
+    { media: "(prefers-color-scheme: dark)", color: "#04060c" }
+  ]
 };
 
 export default function RootLayout({ children }) {

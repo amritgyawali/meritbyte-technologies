@@ -45,6 +45,7 @@ export default async function ServicePage({ params }) {
   const related = pick("services", service.related);
   const posts = pick("blog", service.posts);
   const countries = getCollection("locations").filter((l) => l.type === "country");
+  const techPages = new Map(getCollection("technologies").map((t) => [t.title.toLowerCase(), t.slug]));
 
   const schema = graph(
     webPageSchema({ path, title: service.seoTitle, description: service.description }),
@@ -84,9 +85,15 @@ export default async function ServicePage({ params }) {
             <div>
               <p className="aside-box__label">Technology</p>
               <ul className="chips">
-                {service.technologies.map((t) => (
-                  <li key={t}>{t}</li>
-                ))}
+                {service.technologies.map((t) =>
+                  techPages.has(t.toLowerCase()) ? (
+                    <li key={t} className="chips__link">
+                      <a href={`/technologies/${techPages.get(t.toLowerCase())}`}>{t}</a>
+                    </li>
+                  ) : (
+                    <li key={t}>{t}</li>
+                  )
+                )}
               </ul>
             </div>
           ) : null}

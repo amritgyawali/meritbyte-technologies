@@ -5,7 +5,7 @@ description: A mobile app development company building iOS and Android apps in F
 h1: iOS and Android apps, with the backend and store work included
 lead: One cross-platform codebase in Flutter or React Native, the API and admin panel it depends on, and the App Store and Google Play paperwork handled in your name.
 summary: Meritbyte's mobile app development service builds iOS and Android apps from one Flutter or React Native codebase, plus the backend API, admin panel, push notifications, analytics and crash reporting. It includes App Store and Google Play submission under the client's own developer accounts, test builds every two weeks, and a maintenance plan for yearly OS updates.
-keywords: ["mobile app development company", "android app development", "ios app development", "flutter app development", "react native development"]
+keywords: ["mobile app development company", "android app development", "ios app development", "mobile app developers", "app development company in nepal"]
 deliverables: ["Clickable prototype of the main user flows", "iOS and Android apps from one codebase", "Backend API and web admin panel", "Push notifications, analytics and crash reporting", "Store listings, privacy disclosures and review submission", "Release pipeline with test builds every block", "Maintenance plan for OS and store policy changes"]
 technologies: ["Flutter", "Dart", "React Native", "TypeScript", "Node.js", "PostgreSQL", "Firebase Cloud Messaging", "AWS"]
 related: ["software-development", "ui-ux-design", "qa-testing"]

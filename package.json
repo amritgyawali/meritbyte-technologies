@@ -8,7 +8,8 @@
     "start": "next start",
     "campaign": "node scripts/send-campaign.mjs",
     "check:content": "node scripts/check-content.mjs --strict",
-    "audit": "node scripts/audit-site.mjs http://localhost:3000"
+    "audit": "node scripts/audit-site.mjs http://localhost:3000",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "next": "^15.5.20",

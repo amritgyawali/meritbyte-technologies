@@ -53,10 +53,10 @@ for (const url of urls) {
   else if (title.length > 65) fail(`title is ${title.length} chars`);
   if (!description) fail("no meta description");
   else if (description.length < 50 || description.length > 170) warn.push(`${path}: description is ${description.length} chars`);
-  if (path !== "/" && !canonical) fail("no canonical");
+  if (!canonical) fail("no canonical");
   if (canonical && canonical !== url && !(path === "/" && canonical === origin)) fail(`canonical ${canonical} != ${url}`);
   if (h1s !== 1) fail(`${h1s} <h1> elements`);
-  if (path !== "/" && !/<html lang="en"/.test(body)) fail("missing lang attribute");
+  if (!/<html lang="en"/.test(body)) fail("missing lang attribute");
 
   for (const [key, value] of Object.entries({ title, description })) {
     if (!value) continue;
@@ -65,7 +65,7 @@ for (const url of urls) {
   }
 
   const blocks = [...body.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)];
-  if (path !== "/" && !blocks.length) fail("no JSON-LD");
+  if (!blocks.length) fail("no JSON-LD");
   for (const block of blocks) {
     try {
       const data = JSON.parse(block[1]);
